@@ -7,7 +7,7 @@ Neste exercício, vamos aprender a usar o serviço Reconhecimento de Formulário
 
 
 ## <a name="what-you-need"></a>Do que você precisa
-- [Conjunto de treinamento de fatura](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/data/train.zip)
+- [Conjunto de treinamento de fatura](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/data/training.zip)
 
 - Acesso à versão prévia de acesso limitado. Para obter acesso à versão prévia, preencha e envie o formulário [Solicitação de acesso ao Reconhecimento de Formulários](https://aka.ms/FormRecognizerRequestAccess).
 
@@ -38,9 +38,9 @@ Existem três etapas principais:
 
 [![Criar Contêiner](images/create_container.png)](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal?WT.mc_id=msignitethetour2019-github-aiml10 "Criar contêiner")
 
-2. Baixe e descompacte o [conjunto de faturas para treinamento](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/data/train.zip).
+2. Baixe e descompacte o [conjunto de faturas para treinamento](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/data/training.zip).
 
-3. Carregue o [conjunto de faturas para treinamento](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/data/train.zip) no contêiner `train`. Isso pode ser feito diretamente usando o [portal](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal?WT.mc_id=msignitethetour2019-github-aiml10#upload-a-block-blob) ou o [Gerenciador de Armazenamento do Azure ](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-blobs?WT.mc_id=msignitethetour2019-github-aiml10) (como demonstrado neste [vídeo](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/videos/Demo2.mp4 "Demonstração 1")).
+3. Carregue o [conjunto de faturas para treinamento](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/data/training.zip) no contêiner `train`. Isso pode ser feito diretamente usando o [portal](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal?WT.mc_id=msignitethetour2019-github-aiml10#upload-a-block-blob) ou o [Gerenciador de Armazenamento do Azure ](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-blobs?WT.mc_id=msignitethetour2019-github-aiml10) (como demonstrado neste [vídeo](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/videos/Demo2.mp4 "Demonstração 1")).
 
 ### <a name="create-form-recognizer-service"></a>Criar o serviço Reconhecimento de Formulários
 

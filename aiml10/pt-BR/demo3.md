@@ -1,13 +1,13 @@
 ## <a name="demo-3---creating-a-custom-invoice-reader-skill"></a>Demonstração 3 – Criar uma habilidade personalizada de Leitor de Faturas
 
-[![Demonstração 3](images/demo3.png)](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/videos/Demo2.mp4 "Demonstração 3")
+[![Demonstração 3](images/demo3.png)](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/videos/Demo3.mp4 "Demonstração 3")
 
 ## <a name="summary"></a>Resumo
 Neste exercício, criamos uma habilidade do Azure Search (na forma de uma função do Azure) que coleta dados do Azure Search e retorna um documento json estruturado que representa o conteúdo da fatura em PDF. Para obter uma análise mais aprofundada sobre a criação de uma função do Azure, confira a [documentação](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-azure-function-azure-cli?WT.mc_id=msignitethetour2019-github-aiml10). Supõe-se que foi criada uma conta de armazenamento (como descrito no [primeira demonstração](demo1.md), bem como o serviço de Reconhecimento de Formulários criado na [segunda demonstração](demo2.md))
 
 
 ## <a name="what-you-need"></a>Do que você precisa
-- [Conjunto de teste de faturas](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/data/train.zip) (usado para testar a função do Azure)
+- [Conjunto de teste de faturas](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/data/test.zip) (usado para testar a função do Azure)
 
 
 - O [Postman](https://www.getpostman.com/) é usado para enviar solicitações para a API REST do serviço Reconhecimento de Formulários. Confira este [manual rápido](postman.md) para saber mais.

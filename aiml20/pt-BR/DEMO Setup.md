@@ -116,7 +116,7 @@ Baixe "Imagens de Treinamento de CV.zip" em seu computador local e expanda o arq
 
 Essas imagens serão usadas para testar o serviço de Pesquisa Visual Computacional e criar um modelo com o serviço de Visão Personalizada.
 
-Essas imagens foram obtidas do Wikimedia Commons e usadas de acordo com suas respectivas licenças do Creative Commons. Consulte o arquivo [ATTRIBUTIONS.md](Attributions.md) para obter detalhes.
+Essas imagens foram obtidas do Wikimedia Commons e usadas de acordo com suas respectivas licenças do Creative Commons. Consulte o arquivo [ATTRIBUTIONS.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/CV%20training%20images/ATTRIBUTIONS.md) para obter detalhes.
 
 Baixe também a pasta "imagens de teste". Essas imagens não serão usadas no treinamento, e sim para testar se nossos modelos estão funcionando.
 

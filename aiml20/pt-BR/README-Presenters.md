@@ -43,14 +43,14 @@ Agradecemos a estas pessoas maravilhosas ([chave de emoji](https://allcontributo
     <td align="center"><a href="">
         <img src="https://avatars0.githubusercontent.com/u/152948?s=460&v=4" width="100px;" alt="David Smith"/><br />
         <sub><b>David Smith</b></sub></a><br />
-            <a href="https://github.com/microsoft/ignite-learning-paths/commits?author=revodavid" title="Documentação da">📢</a>
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits?author=revodavid" title="palestra">📖</a> 
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits/master?author=revodavid" title="Documentação da">📢</a>
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits/master?author=revodavid" title="palestra">📖</a> 
     </td>
     <td align="center"><a href="">
         <img src="https://avatars2.githubusercontent.com/u/4598064?s=460&v=4" width="100px;" alt="Chris Noring"/><br />
         <sub><b>Chris Noring</b></sub></a><br />
-            <a href="https://github.com/neilpeterson/ignite-tour-fy20/commits?author=neilpeterson" title="palestra">🎨</a>
-            <a href="https://github.com/neilpeterson/ignite-tour-fy20/commits?author=neilpeterson" title="design">📖</a> 
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits/master" title="palestra">🎨</a>
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits/master" title="design">📖</a> 
     </td>
 </tr></table>
 
@@ -58,4 +58,4 @@ Agradecemos a estas pessoas maravilhosas ([chave de emoji](https://allcontributo
 
 ## <a name="feedback-loop"></a>Loop de comentários
 
-Você tem um comentário, feedback ou sugestão? O melhor loop de comentários para alterações/sugestões/feedback de conteúdo é criar um problema neste repositório GitHub. Para obter todos os detalhes sobre como criar um problema, consulte a [Documentação de contribuição](https://github.com/microsoft/ignite-learning-paths/blob/master/contributing.md)
+Você tem um comentário, feedback ou sugestão? O melhor loop de comentários para alterações/sugestões/feedback de conteúdo é criar um problema neste repositório GitHub. Para obter todos os detalhes sobre como criar um problema, consulte a [Documentação de contribuição](../CONTRIBUTING.md)

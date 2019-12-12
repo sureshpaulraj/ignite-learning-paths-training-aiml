@@ -20,7 +20,7 @@ Depois de criar Serviço do Azure Machine Learning básico, precisamos adicionar
     * Insira um nome para o recurso
     * Selecione o tamanho da máquina (por exemplo: Standard_DS2_v2)
     * Insira os nós mínimo e máximo (recomendável mín. de 0 e máx. de 5)
-    * Clique em "Criar" ![Criar computação](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/CreateMlCompute.gif)
+    * Clique em "Criar" ![Criar Computação](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/CreateMlCompute.gif)
 2. Criar Computação de Kubernetes
     * Clique no nav "Computação"
     * Selecione "Clusters de inferência"
@@ -54,17 +54,17 @@ A primeira demonstração é com VS Code e o C# IgniteAimlDataApp. Isso é para 
 
 1. [Baixe aqui o VS Code](https://code.visualstudio.com/download)
 2. Verifique se o [SDK do .NET Core 2.1.0](https://dotnet.microsoft.com/download/dotnet-core/2.1) está instalado em seu local
-2. Clone o aplicativo com o seguinte comando
+3. Clone o aplicativo com o seguinte comando
     * `git clone https://github.com/microsoft/ignite-learning-paths-training-aiml.git`
-3. Navegue até o caminho do projeto
+4. Navegue até o caminho do projeto
     * `cd ignite-learning-paths-training-aiml/aiml30/C#/IgniteAimlDataApp/IgniteAimlDataApp`
-4. Abra o projeto no VS Code
+5. Abra o projeto no VS Code
     * `code .`
-5. Substitua o conjunto de dados local com o conjunto de dados baixado na etapa acima na pasta `IgniteAimlDataApp/Datasets`.
-6. Para executar o aplicativo
+6. Substitua o conjunto de dados local com o conjunto de dados baixado na etapa acima na pasta `IgniteAimlDataApp/Datasets`.
+7. Para executar o aplicativo
     * Clique com o botão direito do mouse em `Program.cs` e selecione `Open in Terminal`
-    * Execute o comando `dotnet run` Nota para usuários de Mac: se receberem um erro informando que o programa não consegue encontrar o arquivo importado, alterem a linha 14 em Program.css     para incluir barras: `string sourceFile = $"{Environment.CurrentDirectory}//Datasets//{fileName}.csv";`
-    * Ele fará uma pergunta `Would you like to run the default params`; digite `y`
+    * Execute o comando `dotnet run`
+    * Ele solicitará uma pergunta `Would you like to run the default params` do tipo `y`
     * Isso tentará atingir a API, mas falhará, pois ela ainda não foi criada.
 
 ## <a name="run-through-the-live-demo"></a>Executar a demonstração ao vivo
