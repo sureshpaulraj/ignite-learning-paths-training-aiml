@@ -116,7 +116,7 @@
 
 这些图像用于测试计算机视觉服务，并通过自定义视觉服务创建模型。
 
-这些图像源自 Wikimedia Commons，是根据相应的 Creative Commons 许可条款使用的。 有关详细信息，请参阅文件 [ATTRIBUTIONS.md](Attributions.md)。
+这些图像源自 Wikimedia Commons，是根据相应的 Creative Commons 许可条款使用的。 有关详细信息，请参阅文件 [ATTRIBUTIONS.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/CV%20training%20images/ATTRIBUTIONS.md)。
 
 另请下载文件夹“test images”。 这些图像不会在训练中使用，而是用于测试模型的工作状况。
 
