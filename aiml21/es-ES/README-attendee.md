@@ -1,6 +1,6 @@
 # <a name="developers-guide-to-ai-a-data-story"></a>Guía de inteligencia artificial para desarrolladores: una historia sobre datos
 
-En esta sesión teatralizada, se mostrará el proceso de ciencia de datos y cómo aplicarlo. Desde la exploración de conjuntos de datos a la implementación de servicios: todo contextualizado dentro de una historia de datos muy interesante. Esto también permitirá recorrer brevemente la plataforma de Azure AI.
+En esta sesión teatralizada, explicaremos el proceso de ciencia de datos y cómo aplicarlo. Desde la exploración de conjuntos de datos a la implementación de servicios: todo contextualizado dentro de una historia de datos muy interesante. Esto también permitirá recorrer brevemente la plataforma de Azure AI.
 
 # <a name="demo-environment-deployment"></a>Implementación del entorno de demostración
 
@@ -60,20 +60,20 @@ Descargue todo el código y los archivos de datos de este repositorio para comen
 
 # <a name="delivery-of-assets"></a>Entrega de recursos
 
-* [Presentación de PowerPoint](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml21/aiml21.pptx) o vaya a [presentations.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/presentations.md)
+* [Presentación de PowerPoint](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/presentations.md)
 * [Conjuntos de datos utilizados](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml21/data)
 * [Archivos de código que se van a ejecutar](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml21/code)
 * Vídeos de demostración independientes: 
-    * Demostración 1: [Explorar](https://youtu.be/1Xtmrsfkzfs)
-    * Demostración 2: [Experimentar](https://youtu.be/sUKuRBRvo7U)
-    * Demostración 3: [Implementar](https://youtu.be/IgSaMKsyexg)
+    * Demostración 1: [Explorar](https://youtu.be/-z6nfyq-WrI)
+    * Demostración 2: [Experimentar](https://youtu.be/c7p_4CRYT8k)
+    * Demostración 3: [Implementar](https://youtu.be/7bkBO7NQd4Q)
     * Demostración 4: [Presentar](https://youtu.be/g7aBaC9s9qQ)
 
 # <a name="demo-1---explore"></a>Demostración 1: Explorar
 
 > 💡 Debe haber completado la [configuración](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-attendee.md#demo-environment-deployment) antes de intentar realizar la demostración.
 
-### <a name="video-demo-with-voice-over-aiml21---demo-1---explorehttpsyoutube1xtmrsfkzfs"></a>Demostración en vídeo con narración: [AIML21: Demostración 1: Explorar](https://youtu.be/1Xtmrsfkzfs)
+### <a name="video-demo-with-voice-over-aiml21---demo-1---explorehttpsyoutube-z6nfyq-wri"></a>Demostración en vídeo con narración: [AIML21: Demostración 1: Explorar](https://youtu.be/-z6nfyq-WrI)
 
 * Inicie sesión en [Azure Portal](https://azure.microsoft.com/en-gb/?WT.mc_id=msignitethetour2019-github-aiml21) y abra la instancia de **Azure Machine Learning** que ha creado con la plantilla anterior.
 * Para iniciar la experiencia de versión preliminar, haga clic en **"Iniciar versión preliminar ahora"** .
@@ -87,7 +87,7 @@ Descargue todo el código y los archivos de datos de este repositorio para comen
 
 > 💡 Debe haber completado la [configuración](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-attendee.md#demo-environment-deployment) antes de intentar realizar la demostración.
 
-### <a name="video-demo-with-voice-over-aiml21---demo-2---experimenthttpsyoutubesukurbrvo7u"></a>Demostración en vídeo con narración: [AIML21: Demostración 2: Experimentar](https://youtu.be/sUKuRBRvo7U)
+### <a name="video-demo-with-voice-over-aiml21---demo-2---experimenthttpsyoutubec7p_4cryt8k"></a>Demostración en vídeo con narración: [AIML21: Demostración 2: Experimentar](https://youtu.be/c7p_4CRYT8k)
 
 * Vaya a [ml.azure.com](https://ml.azure.com/?WT.mc_id=msignitethetour2019-github-aiml21) Azure Machine Learning Studio. Puede acceder directamente a través de la dirección URL y, después, iniciar sesión y seleccionar el área de trabajo correcta que ha creado para esta presentación. O bien, desde la instancia de Azure Machine Learning Service en Azure Portal, seleccione el botón **"Iniciar versión preliminar ahora"** .
 * Seleccione **ML automatizado** en el panel de la izquierda.
@@ -113,7 +113,7 @@ Descargue todo el código y los archivos de datos de este repositorio para comen
 
 > 💡 Debe haber completado la [configuración](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-attendee.md#demo-environment-deployment) antes de intentar realizar la demostración.
 
-### <a name="video-demo-with-voice-over-aiml21---demo-3---deployhttpsyoutubeigsamksyexg"></a>Demostración en vídeo con narración: [AIML21: Demostración 3: Implementar](https://youtu.be/IgSaMKsyexg)
+### <a name="video-demo-with-voice-over-aiml21---demo-3---deployhttpsyoutube7bkbo7nqd4q"></a>Demostración en vídeo con narración: [AIML21: Demostración 3: Implementar](https://youtu.be/7bkBO7NQd4Q)
 
 * Desde el final de la Demostración 2
 * Comience en la pantalla con el **experimento de ML automatizado** ejecutado.

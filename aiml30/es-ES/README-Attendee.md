@@ -91,7 +91,7 @@ Una vez que haya creado el área de trabajo del servicio Machine Learning base,
 * Haga clic en `Test` para ver cómo funciona en un elemento de datos puntuado.
 * Haga clic en `Consume` para ver el código de ejemplo proporcionado para integrar el servicio web.
 
-### <a name="5-testing-api-with-c-console-app-dotnet-core"></a>5. Prueba de la API con la aplicación de consola de C# (dotnet core)
+### <a name="5-test-api-with-c-console-app-dotnet-core"></a>5. Prueba de la API con la aplicación de consola de C# (dotnet core)
 
 1. [Descargue aquí VS Code](https://code.visualstudio.com/download).
 2. Clone la aplicación con el comando siguiente.
@@ -111,9 +111,22 @@ Una vez que haya creado el área de trabajo del servicio Machine Learning base,
     * Para usar los valores predeterminados StoreID (ID1) de 2 e ItemID (ID2) de 1, y el número de semanas que se va a predecir, simplemente escriba `y`.
     * Esto se ejecutará y devolverá los valores de predicción de las cuatro semanas siguientes.
 
+
+### <a name="6-optional-additionally-test-api-with-python-in-notebook-vms-using-jupyter-notebooks"></a>6. Opcional: Pruebas adicionales de la API con Python en máquinas virtuales de Notebook con Jupyter Notebook
+1. Vaya a `Compute` y cree una nueva máquina virtual de Notebook ![Crear proceso](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/CreateNotebookVM.gif).
+2. Una vez creada en columna `Application URI`, haga clic en la opción `Jupyter Lab`. (Esto no se mostrará hasta que la máquina virtual esté en el estado `running`).
+3. Haga clic en el terminal en la página principal de Jupyter Lab.
+4. Clone el repositorio desde el terminal en Jupyter Lab.
+    * `git clone https://github.com/microsoft/ignite-learning-paths-training-aiml.git`
+5. Abra la carpeta `ignite-learning-paths-training-aiml` clonada y vaya al archivo `ignite-ailml30-get-prediction.ipynb` y haga clic para abrirlo.
+    * La ruta de acceso completa debe ser similar a la siguiente: `ignite-learning-paths-training-aiml\aiml30\Python\ignite-ailml30-get-prediction.ipynb`
+6. Actualice la ruta de acceso al archivo CSV, el punto de conexión y la clave.
+7. Pulse `SHIFT + Enter` o haga clic en Reproducir en cada celda del menú superior para ejecutar cada celda.
+
 ## <a name="powerpoint-deck-and-video-demo"></a>Demostración en vídeo y presentación de PowerPoint
 
-- [Presentación de PowerPoint](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/AIML30_How%20to%20Build%20Machine%20Learning%20Models.pptx)
+- [Presentación de PowerPoint](presentations.md)
+
 - [Vídeos de demostración](https://www.youtube.com/watch?v=u1ppYaZuNmo&feature=youtu.be)
 
 ## <a name="resources-and-continue-learning"></a>Recursos y aprendizaje continuo

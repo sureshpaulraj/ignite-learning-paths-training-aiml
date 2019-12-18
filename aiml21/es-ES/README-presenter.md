@@ -10,7 +10,7 @@ En esta sesión teatralizada, se mostrará el proceso de ciencia de datos y cóm
 
 ### <a name="welcome-presenter"></a>¡Le damos la bienvenida!
 
-Nos complace que esté aquí y espere con ganas la llegada de este increíble contenido. Como presentador experimentado, estamos convencidos de que sabe **cómo** hacerlo, de modo que esta guía se centra en **lo que** necesita presentar. Le proporcionará un repaso completo de la presentación creada por el equipo de diseño de presentaciones.
+Nos complace que esté aquí y espere con ganas la llegada de este increíble contenido. Como presentador experimentado, estamos convencidos de que sabe **cómo** hacerlo, de modo que esta guía se centra en **aquello que** necesita presentar. Le proporcionará un repaso completo de la presentación creada por el equipo de diseño de presentaciones.
 
 Junto con el vídeo de la presentación, este documento proporcionará vínculos a todos los recursos que necesita para presentar correctamente las diapositivas de PowerPoint y las instrucciones y el código de demostración.
 
@@ -21,14 +21,14 @@ Junto con el vídeo de la presentación, este documento proporcionará vínculos
 # <a name="assets-in-train-the-trainer-kit"></a>Recursos del kit de entrenamiento del instructor
 
 * Esta guía
-* [Presentación de PowerPoint](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml21/aiml21.pptx) o vaya a [presentations.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/presentations.md)
+* [Presentación de PowerPoint](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/presentations.md)
 * [Grabación completa de la presentación](https://youtu.be/K8upKkvtEI0)
 * [Conjuntos de datos utilizados](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml21/data)
 * [Archivos de código que se van a ejecutar](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml21/code)
 * Vídeos de demostración independientes: 
-    * Demostración 1: [Explorar](https://youtu.be/1Xtmrsfkzfs)
-    * Demostración 2: [Experimentar](https://youtu.be/sUKuRBRvo7U)
-    * Demostración 3: [Implementar](https://youtu.be/IgSaMKsyexg)
+    * Demostración 1: [Explorar](https://youtu.be/-z6nfyq-WrI)
+    * Demostración 2: [Experimentar](https://youtu.be/c7p_4CRYT8k)
+    * Demostración 3: [Implementar](https://youtu.be/7bkBO7NQd4Q)
     * Demostración 4: [Presentar](https://youtu.be/g7aBaC9s9qQ)
 * Instrucciones de la demostración
 
@@ -111,7 +111,7 @@ Descargue todo el código y los archivos de datos de este repositorio para comen
 
 > 💡 Debe haber completado la [configuración](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions) antes de intentar realizar la demostración.
 
-### <a name="video-demo-with-voice-over-aiml21---demo-1---explorehttpsyoutube1xtmrsfkzfs"></a>Demostración en vídeo con narración: [AIML21: Demostración 1: Explorar](https://youtu.be/1Xtmrsfkzfs)
+### <a name="video-demo-with-voice-over-aiml21---demo-1---explorehttpsyoutube-z6nfyq-wri"></a>Demostración en vídeo con narración: [AIML21: Demostración 1: Explorar](https://youtu.be/-z6nfyq-WrI)
 
 * Inicie sesión en [Azure Portal](https://azure.microsoft.com/en-gb/?WT.mc_id=msignitethetour2019-github-aiml21) y abra la instancia de **Azure Machine Learning** que ha creado con la plantilla anterior.
 * Para iniciar la experiencia de versión preliminar, haga clic en **"Iniciar versión preliminar ahora"** .
@@ -128,7 +128,7 @@ Descargue todo el código y los archivos de datos de este repositorio para comen
 
 > 💡 Debe haber completado la [configuración](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions) antes de intentar realizar la demostración.
 
-### <a name="video-demo-with-voice-over-aiml21---demo-2---experimenthttpsyoutubesukurbrvo7u"></a>Demostración en vídeo con narración: [AIML21: Demostración 2: Experimentar](https://youtu.be/sUKuRBRvo7U)
+### <a name="video-demo-with-voice-over-aiml21---demo-2---experimenthttpsyoutubec7p_4cryt8k"></a>Demostración en vídeo con narración: [AIML21: Demostración 2: Experimentar](https://youtu.be/c7p_4CRYT8k)
 
 * Vaya a [ml.azure.com](https://ml.azure.com/?WT.mc_id=msignitethetour2019-github-aiml21) Azure Machine Learning Studio. Puede acceder directamente a través de la dirección URL y, después, iniciar sesión y seleccionar el área de trabajo correcta que ha creado para esta presentación. O bien, desde la instancia de Azure Machine Learning Service en Azure Portal, seleccione el botón **"Iniciar versión preliminar ahora"** .
 * Seleccione **ML automatizado** en el panel de la izquierda.
@@ -158,7 +158,7 @@ Descargue todo el código y los archivos de datos de este repositorio para comen
 
 > 💡 Debe haber completado la [configuración](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions) antes de intentar realizar la demostración.
 
-### <a name="video-demo-with-voice-over-aiml21---demo-3---deployhttpsyoutubeigsamksyexg"></a>Demostración en vídeo con narración: [AIML21: Demostración 3: Implementar](https://youtu.be/IgSaMKsyexg)
+### <a name="video-demo-with-voice-over-aiml21---demo-3---deployhttpsyoutube7bkbo7nqd4q"></a>Demostración en vídeo con narración: [AIML21: Demostración 3: Implementar](https://youtu.be/7bkBO7NQd4Q)
 
 > Usará el experimento que ha ejecutado y revisado antes para implementarlo.
 
@@ -221,11 +221,11 @@ Descargue todo el código y los archivos de datos de este repositorio para comen
 
 Todos los oradores tendrán la oportunidad de asistir cada mes a **sesiones de preguntas y respuestas de entrenamiento para instructores** (dos sesiones que cubren todas las zonas horarias). Además, después de entregar el contenido en directo, nos gustaría que participase en las **sesiones de comentarios** organizadas para compartir su experiencia con el contenido y todo lo que quiera para proporcionar comentarios o ideas al respecto. 
 
-¿Tiene algún comentario o sugerencia? Actualmente, el mejor bucle de comentarios para los cambios de contenido, sugerencias y comentarios es crear una incidencia en este repositorio de GitHub. Para obtener todos los detalles sobre cómo crear una incidencia, consulte la [documentación de contribución](../CONTRIBUTING.md).
+¿Tiene algún comentario o sugerencia? Actualmente, el mejor bucle de comentarios para los cambios de contenido, sugerencias y comentarios es crear una incidencia en este repositorio de GitHub. Para obtener todos los detalles sobre cómo crear una incidencia, consulte los [documentos de contribución](../CONTRIBUTING.md).
 
 ## <a name="become-a-trained-presenter"></a>Convertirse en un presentador entrenado
 
-Para convertirse en un presentador entrenado, póngase en contacto con [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com). En el correo electrónico, incluya:
+Para convertirse en un presentador entrenado, póngase en contacto con [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com). En el correo electrónico, incluya lo siguiente:
 
 - Nombre completo
 - El código de esta presentación: aiml21

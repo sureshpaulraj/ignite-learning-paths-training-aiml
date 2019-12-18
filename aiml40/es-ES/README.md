@@ -4,7 +4,7 @@
 
 La inteligencia artificial y el aprendizaje automático se pueden usar de muchas maneras para aumentar la productividad de los procesos empresariales y recopilar información significativa mediante el análisis de imágenes, textos y tendencias dentro de flujos de datos no estructurados. Aunque muchas tareas se pueden resolver mediante modelos existentes, en algunos casos también es necesario entrenar un modelo propio para tareas más específicas o para obtener una mayor precisión. 
 
-En esta sesión, se explorará la ruta completa de la integración de servicios inteligentes de análisis de texto en los procesos empresariales de [Tailwind Traders](http://tailwindtraders.com), empezando por los modelos precompilados disponibles como [servicios cognitivos](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=msignitethetour2019-github-aiml40), hasta el entrenamiento de un modelo neuronal personalizado de terceros para [análisis de sentimiento basado en aspectos](https://www.intel.ai/introducing-aspect-based-sentiment-analysis-in-nlp-architect/) disponible como parte de la [arquitectura NLP de Intel](http://nlp_architect.nervanasys.com/) mediante [Azure Machine Learning Service](https://azure.microsoft.com/services/machine-learning-service/?wt.mc_id=msignitethetour2019-github-aiml40). Se describirán casos en los que se necesita un modelo personalizado y se mostrarán formas rápidas de crear este tipo de modelo desde cero con [AutoML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml/?wt.mc_id=msignitethetour2019-github-aiml40) y cómo ajustar los hiperparámetros del modelo con [HyperDrive](https://docs.microsoft.com/azure/machine-learning/service/how-to-tune-hyperparameters/?wt.mc_id=msignitethetour2019-github-aiml40)
+En esta sesión, se explorará la ruta completa de la integración de servicios inteligentes de análisis de texto en los procesos empresariales de [Tailwind Traders](http://tailwindtraders.com), empezando por los modelos precompilados disponibles como [servicios cognitivos](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=msignitethetour2019-github-aiml40), hasta el entrenamiento de un modelo neuronal personalizado de terceros para [análisis de sentimiento basado en aspectos](https://www.intel.ai/introducing-aspect-based-sentiment-analysis-in-nlp-architect/) disponible como parte de la [arquitectura NLP de Intel](http://nlp_architect.nervanasys.com/) con [Azure Machine Learning Service](https://azure.microsoft.com/services/machine-learning-service/?wt.mc_id=msignitethetour2019-github-aiml40). Se describirán casos en los que se necesita un modelo personalizado y se mostrarán formas rápidas de crear este tipo de modelo desde cero con [AutoML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml/?wt.mc_id=msignitethetour2019-github-aiml40) y cómo ajustar los hiperparámetros del modelo con [HyperDrive](https://docs.microsoft.com/azure/machine-learning/service/how-to-tune-hyperparameters/?wt.mc_id=msignitethetour2019-github-aiml40)
 
 ## <a name="table-of-content"></a>Tabla de contenido
  
@@ -12,7 +12,7 @@ En esta sesión, se explorará la ruta completa de la integración de servicios 
 | Recursos          | Vínculos                            |
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentación](presentations.md) |
-| Vídeos            | - [Ensayo del simulacro](https://youtu.be/If9IQm3gWVQ) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/83002?source=sessions) |
+| Vídeos            | - [Ensayo del simulacro](https://youtu.be/If9IQm3gWVQ) <br/>- [Grabación de Microsoft Ignite Orlando](https://myignite.techcommunity.microsoft.com/sessions/83002?source=sessions) |
 | Demostraciones             | - [Demostración 1: Text Analytics de Cognitive Services](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml40#demo-1-text-analytics-cognitive-service) <br/>- [Demostración 2: Aprendizaje automático automatizado](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml40#demo-2-azure-automl) <br/>- [Demostración 3: SDK de Azure Machine Learning e Hyperdrive](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml40#demo-3-using-azure-ml-workspace-with-python-sdk) |
 
 ## <a name="delivery-assets"></a>Recursos de entrega
@@ -35,13 +35,11 @@ En esta presentación se realizan las demostraciones siguientes:
 
 ## <a name="starting-fast"></a>Inicio rápido
 
-Si quiere comenzar de inmediato, puede implementar todos los recursos necesarios a través de la plantilla de Azure y abrir el código en Azure Notebooks. 
+Si quiere comenzar de inmediato, puede implementar todos los recursos necesarios mediante la plantilla de Azure. 
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Fignite-learning-paths-training-aiml%2Fmaster%2Faiml40%2Ftemplate%2Fazuredeploy.json" target="_blank">
  <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<!-- TODO: provide correct Azure Notebook path -->
-<a href="https://notebooks.azure.com/sosh/projects/ignite-absa"><img src="https://notebooks.azure.com/launch.png" /></a>
 
 A continuación se proporcionan instrucciones más detalladas para la demostración, a fin de que pueda realizar los pasos manualmente para comprender totalmente los conceptos que se muestran.
 
@@ -51,7 +49,6 @@ Para realizar los pasos 2 y 3 de la demostración, es necesario:
 
 1. Crear un área de trabajo de Azure Machine Learning
 2. Cargar los datos que se usan para el entrenamiento de AutoML: [clothing_automl.xlsx](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml40/dataset/clothing_automl.xlsx)
-
 
 #### <a name="creating-azure-machine-learning-workspace"></a>Creación de un área de trabajo de Azure Machine Learning
 
@@ -88,10 +85,14 @@ El código de la presentación cargará el conjunto de datos de ropa de ML autom
 
 #### <a name="using-the-azure-ml-demo-code"></a>Uso del código de demostración de Azure ML
 
-Puede ejecutar el código de la demostración desde cualquier entorno de Jupyter Notebook. Puede:
+Puede ejecutar el código de la demostración desde cualquier entorno de Jupyter Notebook. Puede usar cualquiera de las opciones siguientes:
  - Instalar el entorno de Python de forma local, como se describe a continuación en **Instalación del entorno de Python**.
- - Usar [Azure Notebooks](https://docs.microsoft.com/azure/notebooks/azure-notebooks-overview/?wt.mc_id=absa-notebook-abornst). En este caso, debe cargar el archivo `absa.ipynb` en un proyecto nuevo de Azure Notebooks, o simplemente clonar la [biblioteca notebook](https://notebooks.azure.com/sosh/projects/ignite-absa).
- <!-- TODO: provide final path to notebook library -->
+ - Usar Jupyter Notebook en un área de trabajo de Azure Machine Learning. Para ello:
+     - Vaya a su [Portal de Azure Machine Learning](https://ml.azure.com/).
+     - Seleccione **Notebooks** en el menú de la izquierda.
+     - Cargue el archivo `absa.ipynb` y selecciónelo.
+     - Se le pedirá que **cree una máquina virtual de Notebook**. Ahora puede usar el cuaderno directamente desde el portal.
+ - Usar [Azure Notebooks](https://docs.microsoft.com/azure/notebooks/azure-notebooks-overview/?wt.mc_id=absa-notebook-abornst). En este caso, debe cargar el archivo `absa.ipynb` en un nuevo proyecto de Azure Notebooks. Además, debido a las limitaciones del proceso gratuito en Azure Notebooks (1 GB de espacio en disco), solo podrá ejecutar este cuaderno en una máquina virtual, tal y como se describe [aquí](https://docs.microsoft.com/azure/notebooks/use-data-science-virtual-machine/?wt.mc_id=msignitethetour2019-github-aiml40). 
 
 #### <a name="python-environment-installation"></a>Instalación del entorno de Python
 
@@ -189,7 +190,7 @@ Si va a presentar este contenido, consulte los [recursos adicionales para el pre
 
 ### <a name="other-materials"></a>Otros materiales
 
-* [9 sugerencias avanzadas para el aprendizaje automático en producción](aka.ms/9TipsProdML)
+* [9 sugerencias avanzadas para el aprendizaje automático en producción](http://aka.ms/9TipsProdML)
 * [Análisis de sentimiento basado en aspectos de Intel](https://www.intel.ai/introducing-aspect-based-sentiment-analysis-in-nlp-architect/)
 * Repositorios de procedimientos recomendados de Azure ML:
     * [Procesamiento de lenguaje natural](https://github.com/microsoft/nlp/)

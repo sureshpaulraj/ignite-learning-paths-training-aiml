@@ -6,13 +6,15 @@ Aunque muchas empresas han adoptado prácticas de DevOps para mejorar la entrega
 
 En esta sesión, aprenderá a aplicar procedimientos de DevOps a los proyectos de Machine Learning, mediante Azure DevOps y Azure Machine Learning Service. Se configurará el entrenamiento, la puntuación y el almacenamiento automatizados de los modelos con versiones, los modelos se encapsularán en contenedores de Docker y se implementarán en Azure Container Instances y Azure Kubernetes Service. Incluso se recabarán comentarios continuos sobre el comportamiento del modelo para saber cuándo volver a entrenarlo.
 
+* [机器学习操作 - 将 DevOps 应用到数据科学](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master-SimplifiedChinese/aiml50)
+
 ## <a name="table-of-content"></a>Tabla de contenido
  
 
 | Recursos          | Vínculos                            |
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentación](presentations.md) |
-| Vídeos            | - [Ensayo del simulacro](https://youtu.be/UgM8_4fAni8) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/83003) |
+| Vídeos            | - [Ensayo del simulacro](https://youtu.be/UgM8_4fAni8) <br/>- [Grabación de Microsoft Ignite Orlando](https://myignite.techcommunity.microsoft.com/sessions/83003) |
 | Demostraciones             | - [Demostración 1: Representación de la predicción con errores y realización de un cambio](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml50/demos/1-Show_Faulty_Prediction.md) <br/>- [Demostración 2: Compilación de una canalización con cuadernos de Jupyter Notebook](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml50/demos/2-Build_a_Pipeline_With_Notebooks.md) <br/>- [Demostración 3: Representación de la compilación en curso](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml50/demos/3-Show_The_Build.md) <br/>- [Demostración 4: Representación del proceso de lanzamiento](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml50/demos/4-Show_The_Release.md)|
 
 ## <a name="how-to-use"></a>Modo de uso
@@ -21,7 +23,7 @@ En esta sesión, aprenderá a aplicar procedimientos de DevOps a los proyectos d
 
 Nos complace que esté aquí y espere con ganas la llegada de este increíble contenido. Como presentador experimentado, estamos convencidos de que sabe CÓMO hacerlo, de modo que esta guía se centra en LO que necesita presentar. Le proporcionará un repaso completo de la presentación creada por el equipo de diseño de presentaciones.
 
-Junto con el vídeo de la presentación, este documento proporcionará vínculos a todos los recursos que necesita para presentar correctamente las diapositivas de PowerPoint y las instrucciones y el código de demostración.
+Junto con el vídeo de la presentación, este documento proporcionará vínculos a todos los recursos que necesita para presentar correctamente las diapositivas de PowerPoint, así como las instrucciones y el código de demostración.
 
 1. Lea el documento en su totalidad.
 2. Vea la presentación en vídeo.
@@ -48,7 +50,7 @@ Junto con el vídeo de la presentación, este documento proporcionará vínculos
 
 ## <a name="become-a-trained-presenter"></a>Convertirse en un presentador entrenado
 
-Para convertirse en un *presentador entrenado*, póngase en contacto con [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com). En el correo electrónico, incluya:
+Para convertirse en un *presentador entrenado*, póngase en contacto con [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com). En el correo electrónico, incluya lo siguiente:
 
 - Nombre completo:
 - El código de esta presentación: AIML50

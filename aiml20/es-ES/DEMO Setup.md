@@ -10,11 +10,11 @@ Necesitará el contenido de https://github.com/microsoft/ignite-learning-paths-t
 
 Si todavía no tiene una suscripción a Azure, puede [registrarse aquí](https://azure.microsoft.com/free/?WT.mc_id=msignitethetour2019-github-aiml20) y obtener además de forma gratuita 200 USD en créditos de Azure para usarlos. 
 
-## <a name="find-your-azure-subcription-id"></a>Búsqueda del identificador de suscripción de Azure
+## <a name="find-your-azure-subscription-id"></a>Búsqueda del identificador de suscripción de Azure:
 
 En [Azure Portal](https://portal.azure.com), inicie sesión y haga clic en "Suscripciones" en la barra de menús de la izquierda. Haga clic en el nombre de la suscripción que va a usar y copie el valor "ID. de la suscripción" que se muestra allí. Lo necesitará más adelante cuando cree los recursos.
 
-Como alternativa, ejecute `az account show` en la CLI de Azure y copie el valor "id" que se muestra.
+Como alternativa, ejecute `az account show` en la CLI de Azure y copie el valor `id` que se muestra.
 
 ## <a name="start-fresh"></a>Inicio desde cero
 
@@ -99,14 +99,14 @@ También puede [instalar la CLI de Azure](https://docs.microsoft.com/en-us/cli/a
 ## <a name="open-browser-pages-ready-to-demo"></a>Apertura de páginas del explorador listas para la demostración
 
 * La aplicación Tailwind Trader implementada 
-* https://portal.azure.com (vaya a los recursos)  
+* https://portal.azure.com/?feature.customportal=false#home (vaya a recursos: tenga en cuenta que este vínculo muestra el portal público, no la versión en versión preliminar para aquellos con acceso)  
 * https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/
 * https://customvision.ai
 * https://lutzroeder.github.io/netron/
 
-## <a name="download-image-files-to-local-machine"></a>Descarga de archivos de imagen en el equipo local
+## <a name="find-the-image-files-on-your-local-machine"></a>Búsqueda de archivos de imágenes en el equipo local
 
-Descargue "CV Training images.zip" en el equipo local y expanda el archivo ZIP. Se creará una carpeta "CV Training Images" con las subcarpetas siguientes:
+Una vez que haya clonado el repositorio, puede encontrar las imágenes de entrenamiento en la carpeta `aiml20/CV Training Images`. Usará estas imágenes para entrenar el modelo de Custom Vision. La carpeta contiene las siguientes subcarpetas:
 
 * drills
 * hammers
@@ -118,7 +118,7 @@ Estas imágenes se usarán para probar el servicio de Computer Vision y crear u
 
 Estas imágenes se han obtenido de Wikimedia Commons y se han usado bajo sus correspondientes licencias de Creative Commons. Vea el archivo [ATTRIBUTIONS.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/CV%20training%20images/ATTRIBUTIONS.md) para obtener más información.
 
-Descargue también la carpeta "test images". Estas imágenes no se usarán en el entrenamiento, pero sí para probar que los modelos funcionan.
+Puede encontrar imágenes de prueba adicionales en la carpeta `test images`. Estas imágenes no se usarán en el entrenamiento, pero sí para probar que los modelos funcionan.
 
 ## <a name="next-step"></a>Siguiente paso
 

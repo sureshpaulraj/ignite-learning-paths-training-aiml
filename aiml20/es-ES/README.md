@@ -2,6 +2,10 @@
 
 Este es el repositorio compatible con Microsoft Ignite 2019 y la presentación Microsoft Ignite the Tour 2019-2020 (Un paseo por Microsoft Ignite), "Uso de inteligencia artificial pregenerada para superar desafíos empresariales". Aquí encontrará vínculos a los recursos mencionados en la presentación, así como el código y los scripts que necesitará para volver a crear las demostraciones que se proporcionan.
 
+* [AIML20：使用预先构建的 AI 解决业务难题](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master-SimplifiedChinese/aiml20)
+* [AIML20: Uso da IA pré-criada para resolver desafios de negócios](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master-PortugueseBrazil/aiml20)
+* [AIML20:事前構築済み AI を使用してビジネスの課題を解決する](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master-Japanese/aiml20)
+
 ## <a name="session-abstract"></a>Resumen de la sesión
 
 **Uso de inteligencia artificial pregenerada para superar desafíos empresariales**
@@ -14,7 +18,7 @@ Descripción breve: Como compañía orientada a datos, Tailwind Traders entiende
 | Recursos          | Vínculos                            |
 |-------------------|----------------------------------|
 | PowerPoint        | - [Presentación](presentations.md) |
-| Vídeos            | - [Ensayo del simulacro](https://youtu.be/jRO-5g-HYuU) <br/>- [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/82987?source=sessions) |
+| Vídeos            | - [Ensayo del simulacro](https://youtu.be/jRO-5g-HYuU) <br/>- [Grabación de Microsoft Ignite Orlando](https://myignite.techcommunity.microsoft.com/sessions/82987?source=sessions) |
 | Demostraciones             | - [Demostración 1: Configuración ](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Setup.md) <br/>- [Demostración 2: Computer Vision](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Computer%20Vision.md) <br/>- [Demostración 3: Custom Vision](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Custom%20Vision.md)<br/>- [Demostración 4: Implementación de ONNX](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20ONNX%20deployment.md) <br/>- [Demostración 5: Personalizer](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Personalizer.md) | 
 
 [Descargue las diapositivas de la presentación de AIML20 aquí](presentations.md). (Use el primer vínculo para obtener la versión más reciente). Las diapositivas están en formato PPT e incluyen notas del orador detalladas y vídeos de demostración insertados.

@@ -12,7 +12,7 @@ En esta sesión, obtendrá información sobre el proceso de ciencia de datos que
 
 Nos complace que esté aquí y espere con ganas la llegada de este increíble contenido. Como presentador experimentado, estamos convencidos de que sabe CÓMO hacerlo, de modo que esta guía se centra en LO que necesita presentar. Le proporcionará un repaso completo de la presentación creada por el equipo de diseño de presentaciones. 
 
-Junto con el vídeo de la presentación, este documento proporcionará vínculos a todos los recursos que necesita para presentar correctamente las diapositivas de PowerPoint y las instrucciones y el código de demostración.
+Junto con el vídeo de la presentación, este documento proporcionará vínculos a todos los recursos que necesita para presentar correctamente las diapositivas de PowerPoint, así como las instrucciones y el código de demostración.
 
 1.  Lea el documento en su totalidad.
 2.  Vea la presentación en vídeo.
@@ -22,7 +22,7 @@ Junto con el vídeo de la presentación, este documento proporcionará vínculos
 ## <a name="assets-in-train-the-trainer-kit"></a>Recursos del kit de entrenamiento del instructor
 
 - Esta guía
-- Presentación de PowerPoint que incluye notas para cada diapositiva [aquí](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/aiml30.pptx) o [presentations.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml30/presentations.md)
+- Presentación de PowerPoint que incluye notas para cada diapositiva en [presentations.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml30/presentations.md)
 - Grabación completa de la presentación ([aquí](https://www.youtube.com/watch?v=u1ppYaZuNmo&amp=&feature=youtu.be))
 - Grabación individual de la demostración práctica lista para presentarla [aquí](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/FullIgniteModelBuildDemo.mp4). También se incluye en una diapositiva oculta del lote de diapositivas.
 - Guías de recursos de la demostración
@@ -50,7 +50,7 @@ Gracias a todas estas fantásticas personas ([clave de emoji](https://allcontrib
 <table>
 <tr>
     <td align="center">
-        <img src="https://media.licdn.com/dms/image/C4E03AQFV-bjxXWxeIw/profile-displayphoto-shrink_200_200/0?e=1575504000&v=beta&t=i0CssIxPnjai9cTjruIvKVrACO0J2qCCJRm-PLEI1q0" width="100px;" alt="Cassie Breviu"/><br />
+        <img src="https://raw.githubusercontent.com/cassieview/bio/d2c9c83169d5c88f2ffc5e89e4dc16a6658438b8/cassieb.png" width="100px;" alt="Cassie Breviu"/><br />
         <sub><b>Cassie Breviu</b></sub><br />
             <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/aiml30/" title="Presentación">📢</a>Documentación
             <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/aiml30/" title="">📖</a>
@@ -64,7 +64,7 @@ Gracias a todas estas fantásticas personas ([clave de emoji](https://allcontrib
         <td align="center"><a href="https://github.com/amynic">
         <img src="https://avatars3.githubusercontent.com/u/13828867?s=400&u=f6aca8528d65d6c191114d3a7328b46137eda162&v=4" width="100px;" alt="Amy Boyd"/><br />
         <sub><b>Amy Boyd</b></sub></a><br />
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml30/presentations.md" title="Presentación">📢</a>
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml30/presentations.md" title="Charla">📢</a>
     </td>
 </tr></table>
 
