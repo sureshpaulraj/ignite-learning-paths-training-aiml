@@ -1,18 +1,20 @@
 # <a name="using-pre-built-ai-to-understand-images"></a>使用预构建的 AI 来理解图像
 
+> 💡 在尝试执行此演示之前，必须已完成[设置](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Setup.md)。
+
 本演示将使用 Azure 计算机视觉来检测图像代表的物体类型。 
 
 首先，我们将使用计算机视觉在线 Web 窗体上传图像并观察结果。
 
 然后，我们将使用计算机视觉 API 通过 curl 以编程方式收集相同的信息。
 
-## <a name="defining-the-problem-shop-by-photo-doesnt-work-right"></a>定义问题：“按图购物”不能正常工作
+## <a name="defining-the-problem-shop-by-photo-doesnt-work-right"></a>定义问题：“按图购物”不正常工作
 
 促成此次研讨的问题是 Tailwind Traders 网站上的“按图购物”工具无法正常识别产品。 此时，最好是在 [ONNX 部署](DEMO%20ONNX%20deployment.md#defining-the-problem-shop-by-photo-doesnt-work-right)中运行此环节，以设置场景。
 
 ## <a name="using-computer-vision-via-the-web-interface"></a>通过 Web 界面使用计算机视觉
 
-让我们针对某张五金产品图片尝试使用计算机视觉。 如果可以识别 Tailwind Traders 销售的某个产品并指出其名称，则我们可以在“按图购物”应用的目录中搜索该名称。
+让我们针对某张五金产品图片尝试使用计算机视觉。 如果可以按名称识别出 Tailwind Traders 销售的某个产品，则我们可以在“按图购物”应用的目录中搜索该名称。
 
 1. 访问计算机视觉网页 ([https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/?WT.mc_id=msignitethetour2019-github-aiml20))
 
@@ -64,7 +66,7 @@ Accent Color    #90A526
 
 （请注意，上述分析将来可能会发生变化：计算机视觉模型会定期更新。）
 
-请注意，在第一个“对象”结果中，检测到了两个对象“头戴用具”和“人”，并指出了它们在图像中的位置。 我们要检测的对象被分类为“头戴用具”，但我们的应用场景需要更具体的分类：“安全帽”。 不过，“安全帽”并非计算机视觉目前可以检测的对象类型之一。 （稍后我们将通过自定义视觉解决这一问题。）另请注意，每个对象分类都获得了一个置信度评分。
+请注意，在第一个“对象”结果中，检测到了两个对象“头戴用具”和“人”，并指出了它们在图像中的位置。 我们要检测的对象分类为“头戴用具”，但我们的应用场景需要更具体的分类：“安全帽”。 不过，“安全帽”并非计算机视觉目前可以检测的对象类型之一。 （稍后我们将解决自定义视觉的这一问题。）另请注意，为每个对象分类提供了置信度评分。
 
 第二个“标记”结果提供与整个图像关联的标签列表。 置信度最高的标记（最先列出）是“男人”，这没有太大的作用。 第二个标记“头戴用具”也不完全是我们所需的标记。
 
@@ -93,7 +95,7 @@ Accent Color    #90A526
 
 1. 登录到 Azure 订阅（如果使用 Cloud Shell，则不需要执行此步骤）
 2. 创建 Azure 资源组
-3. 创建认知服务密钥。 （注意：这相当于一个综合性密钥，我们以后还会在自定义视觉中用到它。）
+3. 创建认知服务密钥。 （注意：这相当于一个公交车钥匙，我们以后还会在自定义视觉中用到它。）
 4. 查找密钥
 5. 使用 CURL 分析两张图像
 

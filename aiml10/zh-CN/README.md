@@ -1,13 +1,23 @@
-# <a name="aiml10-making-sense-of-your-unstructured-data-with-ai"></a>AIML10：通过 AI 了解非结构化数据
+# <a name="aiml10-making-sense-of-your-unstructured-data-with-ai"></a>AIML10：通过 AI 理解非结构化数据
 
-### <a name="session-abstract"></a>讲座摘要
+## <a name="session-abstract"></a>讲座摘要
 
 Tailwind Traders 拥有大量遗留数据，他们希望开发人员在其应用中使用这些数据。这些数据来自结构化和非结构化的各种来源，包括图像、表单、pdf 文件和其他形式。 在本讲座中，你将了解该团队如何使用认知搜索在短时间内厘清此数据，并取得令人惊叹的成功。 我们将讨论各种 AI 概念，如引入-扩充-探索模式、技能组、认知技能、自然语言处理、计算机视觉等。
+
+## <a name="table-of-content"></a>目录
+ 
+
+| 资源          | 链接                            |
+|-------------------|----------------------------------|
+| PowerPoint        | - [演示文稿](presentations.md) |
+| 视频            | - [进行排练](https://www.youtube.com/watch?v=dm0wDTSso0E) <br/>- [Microsoft Ignite 奥兰多录制内容](https://myignite.techcommunity.microsoft.com/sessions/82986?source=sessions) |
+| 演示             | - [演示 1 - Azure 认知搜索](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo1.md) <br/>- [演示 2 - 表单识别器服务](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo2.md) <br/>- [演示 3 - 创建自定义发票读取者技能](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo3.md)<br/>- [演示 4 - 组合](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo4.md) <br/>- [演示 5 - 知识存储](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo5.md) | 
+
 
 # <a name="overview"></a>概述
 在此解决方案中，我们制定了一个流程，通过该流程获取一组非结构化 pdf 发票并生成结构化的表格输出，只需将 Azure 认知搜索与自定义表单识别器技能配合使用即可。 
 
-创建此解决方案时，会创建多项 Azure 资源（可以根据需要使用[此处的免费试用版](https://azure.microsoft.com/en-gb/free/?WT.mc_id=msignitethetour2019-github-aiml10)）。 下面的表列出了每项资源、其用途，以及完全实现解决方案所需的任何特殊说明（我使用讲座中提供的名称，但这些名称需要根据你的特定解决方案重命名）：
+创建此解决方案时，会创建多项 Azure 资源（可以根据需要使用[此处的免费试用版](https://azure.microsoft.com/en-gb/free/?WT.mc_id=msignitethetour2019-github-aiml10)）。 下面的表列出了每项资源、其用途，以及完全实现解决方案所需的任何特殊说明（我使用了讲座中提供的名称，但这些名称需要根据你的特定解决方案重命名）：
 
 ![Azure 资源](images/resources.png "Azure 资源")
 
@@ -25,7 +35,7 @@ Tailwind Traders 拥有大量遗留数据，他们希望开发人员在其应用
 | **readerskill**          | App Insights                   | 向函数应用添加见解 |
 | **EastUS2LinuxDynamicPlan** | 应用服务计划                   | 基于消耗情况的计划，用于运行函数应用 |
 
-# <a name="presentation"></a>演示
+# <a name="presentation"></a>演示文稿
 
 * [PowerPoint 下载](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/aiml10.pptx)
 * [Microsoft Ignite 奥兰多大会视频](https://myignite.techcommunity.microsoft.com/sessions/82986?source=sessions)
@@ -59,15 +69,15 @@ Tailwind Traders 拥有大量遗留数据，他们希望开发人员在其应用
 * [什么是 Azure 搜索中的知识存储？](https://docs.microsoft.com/en-us/azure/search/knowledge-store-concept-intro)
 
 
-# <a name="feedback-loop"></a>反馈循环
+# <a name="feedback-loop"></a>反馈和建议
 
-想要提供意见、反馈、建议？ 目前，针对内容更改/建议/反馈的最佳反馈循环是在此 GitHub 存储库中创建新问题。 若要获取有关如何创建问题的所有详细信息，请参阅[贡献文档](https://github.com/microsoft/ignite-learning-paths/blob/master/contributing.md)
+想要提供意见、反馈、建议？ 目前，针对内容更改/建议/反馈的最佳方法是在此 GitHub 存储库中创建新的 Issue。 若要获取有关如何创建 Issue 的所有详细信息，请参阅[贡献文档](../CONTRIBUTING.md)
 
 ## <a name="become-a-trained-presenter"></a>成为训练有素的演示者
 
 若要成为训练有素的演示者，请联系 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)。 在电子邮件中，请提供：
 
-- 完整名称
+- 完整的姓名
 - 此演示文稿的代码：aiml10
 - 演示视频（约 10 分钟长）（例如：未列出的 YouTube 视频）链接。 
   > 无需是此内容，重要的是展示演示者技能
