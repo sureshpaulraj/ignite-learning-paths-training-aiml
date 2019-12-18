@@ -1,6 +1,10 @@
 # <a name="aiml20-using-pre-built-ai-to-solve-business-challenges"></a>AIML20: 미리 빌드된 AI를 사용하여 비즈니스 과제 해결
 
-Microsoft Ignite 2019 및 Microsoft Ignite Tour 2019-2020 대담인 “미리 빌드된 AI를 사용하여 비즈니스 과제 해결”을 지원하는 리포지토리입니다. 여기에는 설명에서 언급한 리소스 링크 및 제공된 데모를 다시 만드는 데 필요한 코드와 스크립트를 찾을 수 있습니다.
+Microsoft Ignite 2019 및 Microsoft Ignite Tour 2019-2020 대담인 “미리 빌드된 AI를 사용하여 비즈니스 과제 해결”을 지원하는 리포지토리입니다. 여기서는 설명에서 언급한 리소스 링크 및 제공된 데모를 다시 만드는 데 필요한 코드와 스크립트를 찾을 수 있습니다.
+
+* [AIML20：使用预先构建的 AI 解决业务难题](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master-SimplifiedChinese/aiml20)
+* [AIML20: Uso da IA pré-criada para resolver desafios de negócios](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master-PortugueseBrazil/aiml20)
+* [AIML20:事前構築済み AI を使用してビジネスの課題を解決する](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master-Japanese/aiml20)
 
 ## <a name="session-abstract"></a>세션 요약
 

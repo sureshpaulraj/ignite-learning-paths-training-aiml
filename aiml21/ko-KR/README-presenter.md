@@ -10,7 +10,7 @@
 
 ### <a name="welcome-presenter"></a>환영합니다. 발표자 여러분!
 
-참여해 주셔서 감사드리며 이 놀라운 콘텐츠를 제공하게 되어 기쁘게 생각합니다. 숙련된 발표자로서 프레젠테이션하는 **방법**은 알고 계실 것이므로 이 가이드에서는 프레젠테이션해야 하는 **내용**에 초점을 맞추고 있습니다. 프레젠테이션 디자인 팀에서 만든 전체 실행 프레젠테이션을 제공합니다.
+참여해 주셔서 감사드리며 이 놀라운 콘텐츠를 제공하게 되어 기쁘게 생각합니다. 숙련된 발표자로서 프레젠테이션하는 ‘방법’은 알고 계실 것이므로 이 가이드에서는 프레젠테이션해야 하는 ‘내용’에 초점을 맞추고 있습니다. **** **** 프레젠테이션 디자인 팀에서 만든 전체 실행 프레젠테이션을 제공합니다.
 
 프레젠테이션 동영상과 함께 본 문서는 PowerPoint 슬라이드 및 데모 지침과 코드를 포함하여 성공적으로 프레젠테이션하는 데 필요한 모든 자산에 연결됩니다.
 
@@ -21,14 +21,14 @@
 # <a name="assets-in-train-the-trainer-kit"></a>학습의 자산-강사 키트
 
 * 이 가이드
-* [PowerPoint 프레젠테이션](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml21/aiml21.pptx) 또는 [presentations.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/presentations.md)로 이동
-* [프레젠테이션의 전체 길이 기록](https://youtu.be/K8upKkvtEI0)
+* [PowerPoint 프레젠테이션](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/presentations.md)
+* [프레젠테이션의 전체 길이 녹화](https://youtu.be/K8upKkvtEI0)
 * [사용된 데이터 세트](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml21/data)
 * [실행할 코드 파일](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml21/code)
 * 별도 데모 동영상: 
-    * 데모 1 - [탐색](https://youtu.be/1Xtmrsfkzfs)
-    * 데모 2 - [실험](https://youtu.be/sUKuRBRvo7U)
-    * 데모 3 - [배포](https://youtu.be/IgSaMKsyexg)
+    * 데모 1 - [탐색](https://youtu.be/-z6nfyq-WrI)
+    * 데모 2 - [실험](https://youtu.be/c7p_4CRYT8k)
+    * 데모 3 - [배포](https://youtu.be/7bkBO7NQd4Q)
     * 데모 4 - [표시](https://youtu.be/g7aBaC9s9qQ)
 * 데모 지침
 
@@ -111,7 +111,7 @@
 
 > 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions)을 완료해야 합니다.
 
-### <a name="video-demo-with-voice-over-aiml21---demo-1---explorehttpsyoutube1xtmrsfkzfs"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 1 - 탐색](https://youtu.be/1Xtmrsfkzfs)
+### <a name="video-demo-with-voice-over-aiml21---demo-1---explorehttpsyoutube-z6nfyq-wri"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 1 - 탐색](https://youtu.be/-z6nfyq-WrI)
 
 * [Azure Portal](https://azure.microsoft.com/en-gb/?WT.mc_id=msignitethetour2019-github-aiml21)에 로그인하고 위의 템플릿으로 만든 **Azure Machine Learning**을 엽니다.
 * **'지금 미리 보기 시작'** 을 클릭하여 미리 보기 환경을 시작합니다.
@@ -128,7 +128,7 @@
 
 > 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions)을 완료해야 합니다.
 
-### <a name="video-demo-with-voice-over-aiml21---demo-2---experimenthttpsyoutubesukurbrvo7u"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 2 - 실험](https://youtu.be/sUKuRBRvo7U)
+### <a name="video-demo-with-voice-over-aiml21---demo-2---experimenthttpsyoutubec7p_4cryt8k"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 2 - 실험](https://youtu.be/c7p_4CRYT8k)
 
 * [ml.azure.com](https://ml.azure.com/?WT.mc_id=msignitethetour2019-github-aiml21) Azure Machine Learning 스튜디오로 이동합니다. URL을 통해 여기에 직접 액세스하여 로그인하고, 이 설명을 위해 만든 올바른 작업 영역을 선택할 수 있습니다. 또는 Azure Portal의 Azure Machine Learning Service에서 **'지금 미리 보기 시작'** 단추를 선택합니다.
 * 왼쪽 창에서 **자동화된 ML**을 선택합니다.
@@ -158,7 +158,7 @@
 
 > 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions)을 완료해야 합니다.
 
-### <a name="video-demo-with-voice-over-aiml21---demo-3---deployhttpsyoutubeigsamksyexg"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 3 - 배포](https://youtu.be/IgSaMKsyexg)
+### <a name="video-demo-with-voice-over-aiml21---demo-3---deployhttpsyoutube7bkbo7nqd4q"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 3 - 배포](https://youtu.be/7bkBO7NQd4Q)
 
 > 위에서 검토한 이전에 실행된 실험을 사용하여 배포합니다.
 

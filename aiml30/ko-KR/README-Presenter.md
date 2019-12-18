@@ -22,7 +22,7 @@ Tailwind Traders는 사용자 지정 기계 학습 모델을 사용하여 소프
 ## <a name="assets-in-train-the-trainer-kit"></a>학습의 자산-강사 키트
 
 - 이 가이드
-- 각 슬라이드에 대한 메모를 포함하는 PowerPoint 프레젠테이션은 [여기](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/aiml30.pptx) 또는 [presentations.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml30/presentations.md)에 있습니다.
+- 각 슬라이드에 대한 메모를 포함하는 PowerPoint 프레젠테이션은 [presentations.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml30/presentations.md)에 있습니다.
 - 프레젠테이션의 전체 길이 녹화는 [여기](https://www.youtube.com/watch?v=u1ppYaZuNmo&amp=&feature=youtu.be)에서 제공됩니다.
 - 발표 준비가 완료된 실습 데모의 개별 녹화는 [여기](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/FullIgniteModelBuildDemo.mp4)에서 찾을 수 있습니다. 이 항목은 슬라이드 데크의 숨겨진 슬라이드에도 포함됩니다.
 - 데모 리소스 가이드
@@ -50,7 +50,7 @@ Tailwind Traders는 사용자 지정 기계 학습 모델을 사용하여 소프
 <table>
 <tr>
     <td align="center">
-        <img src="https://media.licdn.com/dms/image/C4E03AQFV-bjxXWxeIw/profile-displayphoto-shrink_200_200/0?e=1575504000&v=beta&t=i0CssIxPnjai9cTjruIvKVrACO0J2qCCJRm-PLEI1q0" width="100px;" alt="Cassie Breviu"/><br />
+        <img src="https://raw.githubusercontent.com/cassieview/bio/d2c9c83169d5c88f2ffc5e89e4dc16a6658438b8/cassieb.png" width="100px;" alt="Cassie Breviu"/><br />
         <sub><b>Cassie Breviu</b></sub><br />
             <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/aiml30/" title="설명">📢</a>
             <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/aiml30/" title="설명서">📖</a>

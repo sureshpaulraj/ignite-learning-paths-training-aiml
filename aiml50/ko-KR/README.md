@@ -6,6 +6,8 @@
 
 이 세션에서는 Azure DevOps와 Azure Machine Learning Service를 사용하여 기계 학습 프로젝트에 DevOps 방식을 적용하는 방법을 알아봅니다. 버전이 있는 모델의 자동화된 학습, 채점, 스토리지를 설정하고, Docker 컨테이너로 모델을 래핑하여 Azure Container Instances 또는 Azure Kubernetes Service에 배포합니다. 나아가 재학습할 시기를 알 수 있도록 모델 동작에 대한 지속적인 피드백도 수집합니다.
 
+* [机器学习操作 - 将 DevOps 应用到数据科学](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master-SimplifiedChinese/aiml50)
+
 ## <a name="table-of-content"></a>목차
  
 

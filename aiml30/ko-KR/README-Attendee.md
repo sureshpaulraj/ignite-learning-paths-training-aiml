@@ -91,7 +91,7 @@ Tailwind Traders는 사용자 지정 기계 학습 모델을 사용하여 소프
 * `Test`를 클릭하여 점수가 매겨진 데이터 항목에서 수행하는 방법을 확인합니다.
 * `Consume`을 클릭하고 웹 서비스 통합을 위해 제공된 샘플 코드를 확인합니다.
 
-### <a name="5-testing-api-with-c-console-app-dotnet-core"></a>5. C# 콘솔 앱을 사용하여 API 테스트(dotnet core)
+### <a name="5-test-api-with-c-console-app-dotnet-core"></a>5. C# 콘솔 앱을 사용하여 API 테스트(dotnet core)
 
 1. [여기에서 VS Code 다운로드](https://code.visualstudio.com/download)
 2. 다음 명령을 사용하여 앱을 복제합니다.
@@ -111,9 +111,22 @@ Tailwind Traders는 사용자 지정 기계 학습 모델을 사용하여 소프
     * StoreID(ID1)의 기본값 2와 ItemID(ID2)의 1 및 예측 주 수를 사용하려면 `y`만 입력합니다.
     * 이 작업을 실행하면 다음 4주에 대한 예측 값을 반환해야 합니다.
 
+
+### <a name="6-optional-additionally-test-api-with-python-in-notebook-vms-using-jupyter-notebooks"></a>6. 선택 사항: Jupyter Notebooks를 사용하여 Notebook VM에서 Python으로 API 테스트
+1. `Compute`로 이동 및 새 Notebook VM 만들기 ![컴퓨팅 만들기](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/CreateNotebookVM.gif)
+2. `Application URI` 열 아래에 만들어지면 `Jupyter Lab` 옵션을 클릭합니다. (VM이 `running` 상태가 될 때까지 표시되지 않습니다.)
+3. Jupyter 랩의 홈페이지에서 터미널을 클릭합니다.
+4. Jupyter 랩의 터미널에서 리포지토리를 복제합니다.
+    * `git clone https://github.com/microsoft/ignite-learning-paths-training-aiml.git`
+5. `ignite-learning-paths-training-aiml` 복제된 폴더를 열고 `ignite-ailml30-get-prediction.ipynb` 파일로 이동한 후 클릭하여 엽니다.
+    * 전체 경로는 다음과 같습니다. `ignite-learning-paths-training-aiml\aiml30\Python\ignite-ailml30-get-prediction.ipynb`
+6. csv 파일, 엔드포인트 및 키에 대한 경로를 업데이트합니다.
+7. `SHIFT + Enter` 또는 최상위 메뉴의 각 셀에서 [재생]을 클릭하여 각 셀 실행
+
 ## <a name="powerpoint-deck-and-video-demo"></a>PowerPoint 데크 및 동영상 데모
 
-- [PowerPoint 데크](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/AIML30_How%20to%20Build%20Machine%20Learning%20Models.pptx)
+- [PowerPoint 데크](presentations.md)
+
 - [데모 동영상](https://www.youtube.com/watch?v=u1ppYaZuNmo&feature=youtu.be)
 
 ## <a name="resources-and-continue-learning"></a>리소스 및 지속적인 학습

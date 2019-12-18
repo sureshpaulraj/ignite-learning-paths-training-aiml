@@ -10,11 +10,11 @@
 
 Azure 구독이 아직 없는 경우 [여기에서 등록](https://azure.microsoft.com/free/?WT.mc_id=msignitethetour2019-github-aiml20)할 수 있으며 사용할 무료 Azure 크레딧으로 200 달러를 받을 수도 있습니다. 
 
-## <a name="find-your-azure-subcription-id"></a>Azure 구독 ID 찾기
+## <a name="find-your-azure-subscription-id"></a>Azure 구독 ID 찾기
 
 [Azure Portal](https://portal.azure.com)에 로그인하고 왼쪽 메뉴 모음에서 “구독”을 클릭합니다. 사용할 구독 이름을 클릭하고 표시된 “구독 ID”를 복사합니다. 나중에 리소스를 만들 때 필요합니다.
 
-또는 Azure CLI에서 `az account show`를 실행하고 표시된 “ID” 값을 복사합니다.
+또는 Azure CLI에서 `az account show`를 실행하고 표시된 `id` 값을 복사합니다.
 
 ## <a name="start-fresh"></a>새로 시작합니다.
 
@@ -99,14 +99,14 @@ Azure 구독이 아직 없는 경우 [여기에서 등록](https://azure.microso
 ## <a name="open-browser-pages-ready-to-demo"></a>데모에 사용할 수 있는 브라우저 페이지를 엽니다.
 
 * 배포된 Tailwind Trader 앱 
-* https://portal.azure.com (리소스로 이동)  
+* https://portal.azure.com/?feature.customportal=false#home (리소스 찾아보기 - 이 링크는 액세스 권한이 있는 해당 버전의 미리 보기 버전이 아니라, 공개 포털을 표시함)  
 * https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/
 * https://customvision.ai
 * https://lutzroeder.github.io/netron/
 
-## <a name="download-image-files-to-local-machine"></a>로컬 컴퓨터에 이미지 파일을 다운로드합니다.
+## <a name="find-the-image-files-on-your-local-machine"></a>로컬 컴퓨터에서 이미지 파일 찾기
 
-로컬 컴퓨터에 “CV Training Images.zip”을 다운로드하고 zip 파일을 확장합니다. 그러면 다음과 같은 하위 폴더가 있는 “CV Training Images” 폴더가 생성됩니다.
+리포지토리를 복제한 후 `aiml20/CV Training Images` 폴더에서 학습 이미지를 찾을 수 있습니다. 이러한 이미지를 사용하여 Custom Vision 모델을 학습합니다. 폴더에는 다음 하위 폴더가 포함되어 있습니다.
 
 * drills
 * hammers
@@ -118,7 +118,7 @@ Azure 구독이 아직 없는 경우 [여기에서 등록](https://azure.microso
 
 이러한 이미지는 Wikimedia Commons에서 소싱되며 해당 Creative Commons 라이선스에 따라 사용됩니다. 자세한 내용은 [ATTRIBUTIONS.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/CV%20training%20images/ATTRIBUTIONS.md) 파일을 참조하세요.
 
-또한 “test images” 폴더도 다운로드합니다. 이러한 이미지는 학습에 사용되지 않지만 모델이 작동하는지 테스트하는 데 사용됩니다.
+추가 테스트 이미지는 `test images` 폴더에서 찾을 수 있습니다. 이러한 이미지는 학습에 사용되지 않지만 모델이 작동하는지 테스트하는 데 사용됩니다.
 
 ## <a name="next-step"></a>다음 단계
 

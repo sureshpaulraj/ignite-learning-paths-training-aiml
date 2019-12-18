@@ -35,13 +35,11 @@
 
 ## <a name="starting-fast"></a>빠른 시작
 
-바로 시작하려는 경우 Azure 템플릿을 통해 필요한 모든 리소스를 배포하고 Azure Notebooks에서 코드를 열 수 있습니다. 
+바로 시작하려는 경우 Azure 템플릿을 통해 필요한 모든 리소스를 배포할 수 있습니다. 
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Fignite-learning-paths-training-aiml%2Fmaster%2Faiml40%2Ftemplate%2Fazuredeploy.json" target="_blank">
  <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<!-- TODO: provide correct Azure Notebook path -->
-<a href="https://notebooks.azure.com/sosh/projects/ignite-absa"><img src="https://notebooks.azure.com/launch.png" /></a>
 
 아래에서는 데모에 대한 세부 지침을 제공하므로 표시되는 개념을 완전히 이해하도록 단계를 수동으로 수행할 수 있습니다.
 
@@ -51,7 +49,6 @@
 
 1. Azure Machine Learning 작업 영역을 만듭니다.
 2. AutoML 학습에 사용되는 데이터 업로드 - [clothing_automl.xlsx](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml40/dataset/clothing_automl.xlsx)
-
 
 #### <a name="creating-azure-machine-learning-workspace"></a>Azure Machine Learning 작업 영역 만들기
 
@@ -88,10 +85,14 @@ python upload_dataset.py -s [subscription_id] -w absa_space -g absa -f clothing_
 
 #### <a name="using-the-azure-ml-demo-code"></a>Azure ML 데모 코드 사용
 
-모든 Jupyter Notebook 환경에서 데모 코드를 실행할 수 있습니다. 다음 작업을 수행할 수 있습니다.
+모든 Jupyter Notebook 환경에서 데모 코드를 실행할 수 있습니다. 다음 옵션 중 하나를 사용할 수 있습니다.
  - **Python 환경 설치** 하단에 설명된 대로 Python 환경을 로컬로 설치합니다.
- - [Azure Notebooks](https://docs.microsoft.com/azure/notebooks/azure-notebooks-overview/?wt.mc_id=absa-notebook-abornst)를 사용합니다. 이 경우 `absa.ipynb` 파일을 새 Azure Notebooks 프로젝트에 업로드해야 합니다. 아니면 [Notebook 라이브러리](https://notebooks.azure.com/sosh/projects/ignite-absa)를 복제하면 됩니다.
- <!-- TODO: provide final path to notebook library -->
+ - Azure ML 작업 영역 내에서 Jupyter Notebooks를 사용합니다. 이러한 작업을 하려면 다음을 수행합니다.
+     - [Azure ML 포털](https://ml.azure.com/)로 이동합니다.
+     - 왼쪽 메뉴에서 **Notebooks**를 선택합니다.
+     - `absa.ipynb` 파일을 업로드하고 선택합니다.
+     - **Notebook VM을 만들지** 묻는 메시지가 표시됩니다. 이제 포털에서 바로 Notebook을 사용할 수 있습니다.
+ - [Azure Notebooks](https://docs.microsoft.com/azure/notebooks/azure-notebooks-overview/?wt.mc_id=absa-notebook-abornst)를 사용합니다. 이 경우 `absa.ipynb` 파일을 새 Azure Notebooks 프로젝트에 업로드해야 합니다. 또한 Azure Notebooks의 여유 컴퓨팅 제한(1GB 디스크 공간)으로 인해 [여기](https://docs.microsoft.com/azure/notebooks/use-data-science-virtual-machine/?wt.mc_id=msignitethetour2019-github-aiml40)에 설명된 것처럼 이 Notebook을 가상 머신에서만 실행할 수 있습니다. 
 
 #### <a name="python-environment-installation"></a>Python 환경 설치
 
@@ -189,7 +190,7 @@ az group delete -n absa
 
 ### <a name="other-materials"></a>기타 자료
 
-* [프로덕션 Machine Learning에 대한 9가지 고급 팁](aka.ms/9TipsProdML)
+* [프로덕션 Machine Learning에 대한 9가지 고급 팁](http://aka.ms/9TipsProdML)
 * [Intel 측면 기반 감정 분석 페이지](https://www.intel.ai/introducing-aspect-based-sentiment-analysis-in-nlp-architect/)
 * Azure ML 모범 사례 리포지토리:
     * [자연어 처리](https://github.com/microsoft/nlp/)

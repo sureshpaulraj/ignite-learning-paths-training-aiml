@@ -2,6 +2,8 @@
 
 이 극장식 세션에서는 데이터 과학 프로세스와 이를 적용하는 방법을 살펴봅니다. 데이터 세트 탐색부터 서비스 배포까지 모든 것이 흥미로운 데이터 스토리에 적용됩니다. 이를 통해 Azure AI 플랫폼을 간단히 둘러볼 수도 있습니다.
 
+* [AI 开发人员指南：数据案例](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master-SimplifiedChinese/aiml21)
+
 ## <a name="table-of-content"></a>목차
  
 
