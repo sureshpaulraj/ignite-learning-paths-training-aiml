@@ -2,15 +2,15 @@
 
 환영합니다. 발표자 여러분! 
 
-참여해 주셔서 감사드리며 이 놀라운 콘텐츠를 제공하게 되어 기쁘게 생각합니다. 숙련된 발표자로서 프레젠테이션하는 방법은 알고 계실 것이므로 이 가이드에서는 프레젠테이션해야 하는 내용에 초점을 맞추고 있습니다. 프레젠테이션 디자인 팀에서 만든 전체 실행 프레젠테이션을 제공합니다. 
+참여해 주셔서 감사드리며 이 놀라운 콘텐츠를 제공하게 되어 기쁘게 생각합니다. 숙련된 발표자로서 프레젠테이션하는 방법은 알고 계실 것이므로 이 가이드에서는 프레젠테이션해야 하는 내용에 초점을 맞추겠습니다. 프레젠테이션 디자인 팀에서 만든 전체 실행 프레젠테이션을 제공합니다. 
 
 프레젠테이션 동영상과 함께 본 문서는 PowerPoint 슬라이드 및 데모 지침과 코드를 포함하여 성공적으로 프레젠테이션하는 데 필요한 모든 자산에 연결됩니다.
 
 1.  문서 전체를 읽습니다.
-2.  동영상 프레젠테이션 보기
-3.  리드 발표자의 질문하기
+2.  동영상 프레젠테이션을 시청합니다.
+3.  리드 발표자에 대해 질문합니다.
 
-## <a name="assets-in-train-the-trainer-kit"></a>학습의 자산-강사 키트
+## <a name="assets-in-train-the-trainer-kit"></a>강사 키트 학습의 자산
 
 - 이 가이드
 - [PowerPoint 프레젠테이션](presentations.md). 포함된 데모 동영상 및 설명의 전체 설명 트랙이 있습니다.
@@ -22,7 +22,7 @@
 
 ## <a name="become-a-trained-presenter"></a>숙련된 발표자 되기
 
-숙련된 발표자가 되려면 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)에 문의하세요. 메일에 다음을 포함하세요.
+숙련된 발표자가 되려면 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)에 문의하세요. 메일에 다음을 포함해야 합니다.
 
 - 전체 이름:
 - 이 프레젠테이션의 코드: AIML20
@@ -43,13 +43,13 @@
     <td align="center"><a href="">
         <img src="https://avatars0.githubusercontent.com/u/152948?s=460&v=4" width="100px;" alt="David Smith"/><br />
         <sub><b>David Smith</b></sub></a><br />
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits/master?author=revodavid" title="설명">📢</a>
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits/master?author=revodavid" title="설명서">📖</a> 
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits/master?author=revodavid" title="발표">📢</a>
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits/master?author=revodavid" title="문서">📖</a> 
     </td>
     <td align="center"><a href="">
         <img src="https://avatars2.githubusercontent.com/u/4598064?s=460&v=4" width="100px;" alt="Chris Noring"/><br />
         <sub><b>Chris Noring</b></sub></a><br />
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits/master" title="설명">🎨</a>
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits/master" title="발표">🎨</a>
             <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits/master" title="디자인">📖</a> 
     </td>
 </tr></table>
@@ -58,4 +58,4 @@
 
 ## <a name="feedback-loop"></a>피드백 루프
 
-의견, 피드백, 제안이 있으신가요? 콘텐츠 변경/제안/피드백을 위한 최상의 피드백 루프는 이 GitHub 리포지토리에서 새로운 이슈를 생성하는 것입니다. 이슈 생성 방법에 대한 모든 세부 정보를 보려면 [영향을 주는 문서](../CONTRIBUTING.md)를 참조하세요.
+의견, 피드백, 제안이 있으신가요? 콘텐츠 변경/제안/피드백을 위한 최상의 피드백 루프는 이 GitHub 리포지토리에서 새로운 이슈를 생성하는 것입니다. 이슈 생성 방법에 대한 모든 세부 정보를 보려면 [기여](../CONTRIBUTING.md) 문서를 참조하세요.

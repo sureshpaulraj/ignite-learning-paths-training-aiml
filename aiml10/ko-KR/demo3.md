@@ -1,4 +1,4 @@
-## <a name="demo-3---creating-a-custom-invoice-reader-skill"></a>데모 3 -사용자 지정 청구서 판독기 기술 만들기
+## <a name="demo-3---creating-a-custom-invoice-reader-skill"></a>데모 3 - 사용자 지정 청구서 판독기 기술 만들기
 
 [![데모 3](images/demo3.png)](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/videos/Demo3.mp4 "데모 3")
 
@@ -10,7 +10,7 @@
 - [청구서 테스트 세트](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/data/test.zip)(Azure 함수를 테스트하는 데 사용됨)
 
 
-- [Postman](https://www.getpostman.com/)은 Form Recognizer 서비스 REST API에 요청을 보내는 데 사용됩니다. 자세한 내용은 이 [간단한 입문](postman.md)을 참조하세요.
+- [Postman](https://www.getpostman.com/)은 Form Recognizer 서비스 REST API에 요청을 보내는 데 사용됩니다. 자세한 내용은 이 [간단한 입문서](postman.md)를 참조하세요.
 
 - Postman Reader 기술 요청 [컬렉션](src/Collections/Reader_Skill.postman_collection.json)입니다.
 

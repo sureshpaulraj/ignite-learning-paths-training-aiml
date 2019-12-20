@@ -1,6 +1,6 @@
 # <a name="demo-custom-vision"></a>데모: Custom Vision
 
-> 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Setup.md)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Setup.md)을 완료해야 합니다.
 
 이 데모에서는 customvision.ai에서 서비스를 사용하여 Custom Vision 모델을 만듭니다.
 

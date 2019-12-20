@@ -1,6 +1,6 @@
 # <a name="using-pre-built-ai-to-understand-images"></a>미리 빌드한 AI를 사용하여 이미지 이해
 
-> 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Setup.md)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Setup.md)을 완료해야 합니다.
 
 이 데모에서는 Azure Computer Vision을 사용하여 이미지가 나타내는 개체 형식을 감지합니다. 
 

@@ -126,12 +126,12 @@ python create_cluster.py -s [subscription_id] -w absa_space -g absa
 
 ### <a name="demo-1-text-analytics-cognitive-service"></a>데모 1: Text Analytics Cognitive Service
 
-> 💡 데모를 사용하기 전에 [환경 설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml40#starting-fast)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [환경 설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml40#starting-fast)을 완료해야 합니다.
 
 이 데모에서는 웹 인터페이스에서 구를 감정 분석할 수 Text Analytics 방법을 보여줍니다.
 
 1. [Text Analytics 페이지](https://azure.microsoft.com/services/cognitive-services/text-analytics/?WT.mc_id=msignitethetour2019-github-aiml40)를 엽니다.
-2. **작업에 표시** 섹션이 있는 아래로 스크롤하고 ‘런던 매장에서 구매한 물방울무늬 바지가 마음에 들었어요’ 구를 입력합니다(기본 구를 유지하고 요점을 보여줄 수도 있음). 
+2. **작업에 표시** 섹션이 있는 아래로 스크롤하고 ‘런던 매장에서 구매한 도트 패턴 바지가 마음에 들었어요’ 구를 입력합니다(기본 구를 유지하고 요점을 보여줄 수도 있음). 
 3. 다음 결과를 얻으려면 **분석**을 누릅니다.
 
 ![Azure Text Analytics의 스크린샷](images/analytics.png)
@@ -140,7 +140,7 @@ Text Analytics는 감정을 제공할 뿐만 아니라 텍스트에서 위치와
 
 ### <a name="demo-2-azure-automl"></a>데모 2: Azure AutoML
 
-> 💡 데모를 사용하기 전에 [환경 설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml40#starting-fast)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [환경 설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml40#starting-fast)을 완료해야 합니다.
 
 이 데모에서는 코딩을 수행하지 않고도 자동화된 ML을 사용하여 ML 모델을 빌드하는 방법을 보여줍니다.
 
@@ -160,7 +160,7 @@ Text Analytics는 감정을 제공할 뿐만 아니라 텍스트에서 위치와
 
 ### <a name="demo-3-using-azure-ml-workspace-with-python-sdk"></a>데모 3: Python SDK와 함께 Azure ML 작업 영역 사용
 
-> 💡 데모를 사용하기 전에 [환경 설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml40#starting-fast)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [환경 설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml40#starting-fast)을 완료해야 합니다.
 
 이 데모에서는 Python Azure ML SDK를 사용하는 사용자 지정 Python 코드를 실행하고 ABSA (사용자 지정 측면 기반 감정 분석) 모델을 학습, 최적화 및 사용합니다.
 
@@ -200,4 +200,4 @@ az group delete -n absa
 
 ## <a name="feedback-loop"></a>피드백 루프
 
-의견, 피드백, 제안이 있으신가요? 현재 콘텐츠 변경/제안/피드백을 위한 최상의 피드백 루프는 이 GitHub 리포지토리에서 새로운 이슈를 생성하는 것입니다. 이슈 생성 방법에 대한 모든 세부 정보를 보려면 [영향을 주는 문서](../../contributing.md) 문서를 참조하세요.
+의견, 피드백, 제안이 있으신가요? 현재 콘텐츠 변경/제안/피드백을 위한 최선의 피드백 루프는 이 GitHub 리포지토리에서 새로운 이슈를 생성하는 것입니다. 이슈 생성 방법에 대한 모든 세부 정보를 보려면 [기여](../../contributing.md) 문서를 참조하세요.

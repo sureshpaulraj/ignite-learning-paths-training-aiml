@@ -1,13 +1,13 @@
 # <a name="show-the-release-process"></a>릴리스 프로세스 표시
 
-> 💡 데모를 사용하기 전에 [설정](../DEMO.md)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](../DEMO.md)을 완료해야 합니다.
 
 ## <a name="automating-the-manual-process"></a>수동 프로세스 자동화
 
-설명 점수:
+핵심 요지:
 
 * 이러한 점을 염두에 두고 빌드 정의를 살펴보겠습니다.
-* Jupyter Notebooks에서 수행하지 않고(예: 마지막 데모) 코드를 만들어 보겠습니다.
+* 마지막 데모처럼 Jupyter Notebooks에서 수행하지 않고 코드를 만들어 보겠습니다.
 
 데모:
 
@@ -20,4 +20,4 @@
 
 ## <a name="example-demo"></a>예제 데모
 
-* [24:44에 예행 연습 시작](https://youtu.be/UgM8_4fAni8?t=1951)
+* [24:44분부터 예행 연습 시작](https://youtu.be/UgM8_4fAni8?t=1951)

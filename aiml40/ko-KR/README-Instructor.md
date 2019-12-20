@@ -10,19 +10,19 @@
 
 환영합니다. 발표자 여러분! 
 
-참여해 주셔서 감사드리며 이 놀라운 콘텐츠를 제공하게 되어 기쁘게 생각합니다. 숙련된 발표자로서 프레젠테이션하는 ‘방법’은 알고 계실 것이므로 이 가이드에서는 프레젠테이션해야 하는 ‘내용’에 초점을 맞추고 있습니다.   프레젠테이션 디자인 팀에서 만든 전체 실행 프레젠테이션을 제공합니다. 
+참여해 주셔서 감사드리며 이 놀라운 콘텐츠를 제공하게 되어 기쁘게 생각합니다. 숙련된 발표자로서 프레젠테이션하는 ‘방법’은 알고 계실 것이므로 이 가이드에서는 프레젠테이션해야 하는 ‘내용’에 초점을 맞추겠습니다.   프레젠테이션 디자인 팀에서 만든 전체 실행 프레젠테이션을 제공합니다. 
 
 프레젠테이션 동영상과 함께 본 문서는 PowerPoint 슬라이드 및 데모 지침과 코드를 포함하여 성공적으로 프레젠테이션하는 데 필요한 모든 자산에 연결됩니다.
 
 1.  문서 전체를 읽습니다.
-2.  동영상 프레젠테이션 보기
-3.  리드 발표자의 질문하기
+2.  동영상 프레젠테이션을 시청합니다.
+3.  리드 발표자에 대해 질문합니다.
 
-## <a name="assets-in-train-the-trainer-kit"></a>학습의 자산-강사 키트
+## <a name="assets-in-train-the-trainer-kit"></a>강사 키트 학습의 자산
 
 - 이 가이드
 - 각 슬라이드에 대한 메모를 포함하는 PowerPoint 프레젠테이션은 [여기](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml40/aiml40.pptx) 또는 [presentations.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml40/presentations.md)에 있습니다.
-- 프레젠테이션의 전체 길이 녹화는 [여기](https://youtu.be/If9IQm3gWVQ)에서 제공됩니다.
+- 프레젠테이션의 전체 녹화는 [여기](https://youtu.be/If9IQm3gWVQ)에서 제공됩니다.
 - 발표 준비가 완료된 실습 데모의 개별 녹화는 다음과 같습니다.
     * 데모 1 - [Cognitive Services Text Analytics](https://youtu.be/QJxjm5BirOA)
     * 데모 2 - [자동화된 Machine Learning](https://youtu.be/qrstXN6TLZk)
@@ -31,13 +31,13 @@
 
 ## <a name="become-a-trained-presenter"></a>숙련된 발표자 되기
 
-*숙련된 발표자*가 되려면 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)에 문의하세요. 메일에 다음을 포함하세요.
+*숙련된 발표자*가 되려면 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)에 문의하세요. 메일에 다음을 포함해야 합니다.
 
 - 전체 이름:
 - 이 프레젠테이션의 코드: \<세션 코드(예: aiml40)\>
 - 프레젠테이션하는 동영상(10분) 링크(예: 목록에 없는 YouTube 동영상). 
 
-> 해당 동영상은 이 콘텐츠를 포함할 필요가 없으며 발표자 기술을 보여주는 것이 중요합니다.
+> 이 콘텐츠여야할 필요는 없습니다. 발표자의 발표 기술을 보여주는 것이 중요합니다.
 
 
 ## <a name="trained-presenters"></a>숙련된 발표자
@@ -52,7 +52,7 @@
     <td align="center"><a href="https://github.com/aribornstein">
         <img src="https://avatars3.githubusercontent.com/u/3045407?s=460&v=4" width="100px;" alt="Ari Bornstein"/><br />
         <sub><b>Ari Bornstein</b></sub></a><br />
-            <a href="" title="설명">📢</a>
+            <a href="" title="발표">📢</a>
     </td>
     <td align="center"><a href="https://github.com/shwars">
         <img src="https://avatars0.githubusercontent.com/u/2892110?s=460&v=4" width="100px;" alt="Dmitri Soshnikov"/><br />
@@ -62,7 +62,7 @@
         <td align="center"><a href="https://github.com/amynic">
         <img src="https://avatars3.githubusercontent.com/u/13828867?s=400&u=f6aca8528d65d6c191114d3a7328b46137eda162&v=4" width="100px;" alt="Amy Boyd"/><br />
         <sub><b>Amy Boyd</b></sub></a><br />
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml30/presentations.md" title="설명">📢</a>
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml30/presentations.md" title="발표">📢</a>
     </td>
 </tr></table>
 

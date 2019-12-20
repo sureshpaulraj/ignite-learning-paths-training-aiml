@@ -1,39 +1,39 @@
 # <a name="demo-guide"></a>데모 가이드
-> 💡 데모를 사용하기 전에 [배포](demosetup.md)를 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [배포](demosetup.md)를 완료해야 합니다.
 
 # <a name="demo-1-data-prep-demo-with-app"></a>데모 1: 앱을 사용한 데이터 준비 데모
-첫 번째 데모에서는 시계열 모델 슬라이드에서 설명한 데이터 준비를 강조합니다. C# 데모 앱에서 이 작업을 수행하는 방법을 단계별로 연습합니다. 이 작업은 어떤 언어로든 수행할 수 있음을 강조해야 합니다.
+첫 번째 데모에서는 시계열 모델 슬라이드에서 설명한 데이터 준비를 강조합니다. C# 데모 앱에서 이 작업을 수행하는 방법을 단계별로 안내합니다. 이 작업은 어떤 언어로든 수행할 수 있음을 강조해야 합니다.
 
 `F12` 및 `CTRL-` 바로 가기로 코드를 탐색하려면 [여기](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings)에서 VS Code용 Visual Studio 바로 가기 확장을 다운로드합니다. 이 방법은 매우 유용하며 항목을 찾을 때까지 스크롤할 필요가 없습니다. (이 확장은 mac 또는 linux에서 작동하지 않음)
 
 ### <a name="data-prep-demo-video-herehttpsyoutubeu1ppyazunmot751"></a>데이터 준비 데모 동영상 [여기](https://youtu.be/u1ppYaZuNmo?t=751)
 
-> 💡 데모를 사용하기 전에 [배포](demosetup.md)를 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [배포](demosetup.md)를 완료해야 합니다.
 
 ### <a name="1-open-the-igniteaimldataapp-app-i-personally-like-to-have-this-open-before-i-start-the-talk-so-i-can-just-flip-to-it"></a>1. `IgniteAimlDataApp` 앱을 엽니다. 화면을 간단하게 전환할 수 있기 때문에 개인적으로는 설명을 시작하기 전에 앱을 열어 두는 것을 선호합니다.
 * `Program.cs` 파일을 엽니다.
 * 마우스 오른쪽 단추를 클릭하여 `GetProcessedDataForScore` 메서드로 이동하고, `Go To Definition`을 선택하거나 `F12` 키를 누릅니다.
     * 데이터 원본에서 데이터를 로드합니다. 이 예제에서는 솔루션의 로컬 excel 파일을 로드합니다.
-* `F12` 키를 눌러 `AddWeeksToPredict` 메서드로 이동하고 논리를 논의합니다.
+* `F12` 키를 눌러 `AddWeeksToPredict` 메서드로 이동하고 논리를 설명합니다.
     * 최신 날짜를 가져오고 해당 날짜에서 향후 4주를 추가합니다.
     * 데이터가 주 단위이므로 주중에 공휴일이 있는지 알아보고자 합니다. 그래서 주중에 발생한 모든 날짜를 계산하고 `DatesInWeek`라는 컬렉션을 채웁니다.
     * 그런 다음, 컬렉션에 추가된 향후 4주에 해당하는 시간을 만듭니다.
-* `F12` 키를 눌러 `AddWeeksToPredict` 논리 내의 `CreateTimeFeatures` 메서드로 이동하고 논리에 대해 논의합니다.
+* `F12` 키를 눌러 `AddWeeksToPredict` 논리 내의 `CreateTimeFeatures` 메서드로 이동하고 논리를 설명합니다.
     * 현재 시간 속성을 사용하여 필요한 시간 및 공휴일 기능을 계산할 수 있습니다.
 * `CTRL-` 키를 눌러 `AddWeeksToPredict`로 돌아갑니다.
 * `F12` 키를 눌러 `CreateFourierFeatures`로 이동합니다.
     * 주간 데이터 기능에 대한 52개의 계절성 주기에서 푸리에 항(Fourier Term) 기능을 계산합니다. 
 * `CTRL-`키를 눌러 `GetProcessedDataForScore`로 돌아갑니다.
-* `F12` 키를 눌러 `CreateLagFeatures` 메서드로 이동하고 논리에 대해 논의합니다.
+* `F12` 키를 눌러 `CreateLagFeatures` 메서드로 이동하고 논리를 설명합니다.
     * 현재 행에 26주 전의 판매액을 추가합니다.
 * `CTRL-`키를 눌러 `GetProcessedDataForScore`로 돌아갑니다.
 
 * 데이터 데모 백업 옵션
-    * 숨겨진 슬라이드에서 포함된 mp4 동영상을 사용합니다. 음소거 상태로 이 동영상을 틀고 이야기를 나누세요.
+    * 숨겨진 슬라이드에 포함된 mp4 동영상을 사용합니다. 음소거 상태로 이 동영상을 틀고 이야기를 나누세요.
     * 슬라이드 21에서 시작하여 정적 슬라이드 단계에서 데이터 준비 코드를 표시합니다.
 
 # <a name="demo-2-build-model-with-azure-machine-learning-designer"></a>데모 2: Azure Machine Learning 디자이너를 사용하여 모델 빌드
-💡 데모를 사용하기 전에 [배포](demosetup.md)를 완료해야 합니다.
+💡 데모를 시작하기 전에 [배포](demosetup.md)를 완료해야 합니다.
 
 ### <a name="full-model-building-live-demo-video-herehttpsyoutubeu1ppyazunmot1278"></a>전체 모델 빌드 라이브 데모 동영상 [여기](https://youtu.be/u1ppYaZuNmo?t=1278)
 
@@ -68,13 +68,13 @@
     * `Time` 열에서 `Minus` 아이콘을 클릭하여 제외합니다.
 * `Split Data`를 작업 영역으로 끌어옵니다.
     * 매개 변수를 편집하여 데이터를 70/30으로 분할합니다. 
-    * 분할 백분율은 규칙이 아니므로 다른 모델 요구 사항에 따라 달라질 수 있습니다.
+    * 분할 백분율은 정해진 규칙이 아니며 모델 요구 사항에 따라 달라질 수 있습니다.
 * `Train Model`을 작업 영역으로 끌어옵니다.
     * 오른쪽의 매개 변수에서 레이블 열 이름 `Value`를 선택합니다.
 * `Boosted Decision Tree Regression`을 작업 영역으로 끌어옵니다.
 * `Score Model`을 작업 영역으로 끌어옵니다.
 * `Evaluate`를 작업 영역으로 끌어옵니다.
-* 학습 데이터의 경우 `Split Data` 모듈을 `Train Model`에 연결하고, 보이지 않는 데이터로 예측 결과의 점수를 매기려면 `Score Model`에 연결합니다.
+* 학습 데이터를 가져오려면 `Split Data` 모듈을 `Train Model`에 연결하고 보이지 않는 데이터로 예측 결과의 점수를 매기려면 `Score Model`에 연결합니다.
 * `Train Model`을 학습 알고리즘 `Boosted Decision Tree Regression` 모듈에 연결합니다.
 * `Evaluate` 모듈을 사용하여 `Score Model`을 연결합니다.
 * 이곳은 일반적으로 모델을 실행하는 _위치지만_ 데모에서 실행하는 데 시간이 너무 오래 걸립니다. 하단 탐색 창에서 `Run` 단추를 클릭하고 [컴퓨팅]을 선택하는 방법을 알아보세요. 이 방법은 AML에서 컴퓨팅 리소스를 만드는 방법에 관한 설명으로 이어집니다.
@@ -129,7 +129,7 @@
 
 # <a name="demo-3-testing-api-with-c-console-app-dotnet-core"></a>데모 3: C# 콘솔 앱을 사용하여 API 테스트(dotnet core)
 
-> 💡 데모를 사용하기 전에 [배포](demosetup.md)를 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [배포](demosetup.md)를 완료해야 합니다.
 
 ### <a name="api-demo-test-video-herehttpsyoutubeu1ppyazunmot2136"></a>API 데모 테스트 동영상 [여기](https://youtu.be/u1ppYaZuNmo?t=2136)
 
@@ -139,5 +139,5 @@
 * `Program.cs`를 열고 `client.BaseAddress = new Uri("");`에 값을 붙여넣습니다.
 * `Program.cs`를 마우스 오른쪽 단추로 클릭하고 `Open in Terminal`을 선택합니다.
 * `dotnet run` 명령을 입력하여 콘솔 앱을 실행합니다.
-* StoreID(ID1)의 기본값 2와 ItemID(ID2)의 1 및 예측 주 수를 사용하려면 `y`만 입력합니다.
+* StoreID(ID1)의 기본값 2와 ItemID(ID2)의 1 및 예측값( 주 단위)을 사용하려면 `y`만 입력합니다.
 * 이 작업을 실행하면 다음 4주에 대한 예측 값을 반환해야 합니다.

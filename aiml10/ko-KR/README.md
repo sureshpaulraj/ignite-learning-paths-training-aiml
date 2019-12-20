@@ -2,7 +2,7 @@
 
 ## <a name="session-abstract"></a>세션 요약
 
-Tailwind Traders에는 개발자가 앱에서 활용할 수 있는 이미지, 양식, PDF 파일 등 다양한 소스의 구조화되거나 비정형의 레거시 데이터가 많습니다. 이 세션에서는 팀이 Cognitive Search를 사용하여 짧은 시간 안에 이 데이터를 이해하고 놀라운 성공을 거둔 비결을 알아봅니다. 수집-보강-탐색 패턴, 기술 세트, 인지 기술, 자연어 처리, Computer Vision 등 수많은 AI 개념을 설명합니다.
+Tailwind Traders에는 개발자가 앱에서 활용할 수 있는 이미지, 양식, PDF 파일 등 다양한 소스의 구조화되거나 비정형의 레거시 데이터가 많습니다. 이 세션에서는 팀이 Cognitive Search를 사용하여 짧은 시간 안에 이 데이터를 이해하고 놀라운 성공을 거둔 비결을 알아보겠습니다. 수집-보강-탐색 패턴, 기술 세트, 인지 기술, 자연어 처리, 컴퓨터 비전 등 수많은 AI 개념을 설명합니다.
 
 ## <a name="table-of-content"></a>목차
  
@@ -11,13 +11,13 @@ Tailwind Traders에는 개발자가 앱에서 활용할 수 있는 이미지, �
 |-------------------|----------------------------------|
 | PowerPoint        | - [프레젠테이션](presentations.md) |
 | 동영상            | - [예행 연습](https://www.youtube.com/watch?v=dm0wDTSso0E) <br/>- [Microsoft Ignite 올랜도 녹화](https://myignite.techcommunity.microsoft.com/sessions/82986?source=sessions) |
-| 데모             | - [데모 1 - Azure Cognitive Search ](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo1.md) <br/>- [데모 2 - Form Recognizer Service](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo2.md) <br/>- [데모 3 - 사용자 지정 청구서 판독기 기술 만들기](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo3.md)<br/>- [데모 4 - 모든 항목 요약](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo4.md) <br/>- [데모 5 - 지식 저장소](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo5.md) | 
+| 데모             | - [데모 1 - Azure Cognitive Search ](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo1.md) <br/>- [데모 2 - Form Recognizer 서비스](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo2.md) <br/>- [데모 3 - 사용자 지정 청구서 판독기 기술 만들기](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo3.md)<br/>- [데모 4 - 모든 항목 요약](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo4.md) <br/>- [데모 5 - 지식 저장소](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml10/demo5.md) | 
 
 
 # <a name="overview"></a>개요
 이 솔루션에서는 일련의 구조화되지 않은 pdf 청구서를 가져오고, 사용자 지정 Form Recognizer 기술과 함께 Azure Cognitive Search를 사용하여 구조화된 테이블 형식 출력을 생성하는 프로세스를 개발합니다. 
 
-이 솔루션을 만드는 경우 생성되는 몇 가지 Azure 리소스(필요한 경우 [평가판은 ](https://azure.microsoft.com/en-gb/free/?WT.mc_id=msignitethetour2019-github-aiml10)에 있음)가 있습니다. 다음 표에는 솔루션을 완전히 구현하는 데 필요한 각 리소스, 목적 및 특별 지침이 나와 있습니다(설명 중에 제시된 이름을 사용하지만 특정 솔루션의 경우 이름을 바꿔야 함).
+이 솔루션을 만드는 경우 생성되는 몇 가지 Azure 리소스가 있습니다(필요한 경우 평가판은 [여기](https://azure.microsoft.com/en-gb/free/?WT.mc_id=msignitethetour2019-github-aiml10)에 있습니다). 다음 표에는 솔루션을 완전히 구현하는 데 필요한 각 리소스, 용도 및 특별 지침이 나와 있습니다. 발표에는 제시된 이름을 사용하지만 특정 솔루션의 경우 이름을 바꿔야할 수 있습니다.
 
 ![Azure 리소스](images/resources.png "Azure 리소스")
 
@@ -26,10 +26,10 @@ Tailwind Traders에는 개발자가 앱에서 활용할 수 있는 이미지, �
 | 이름                       | 형식                            | 용도                    |
 | -------------------------- | ------------------------------- | ------------------------- |
 | **ttcognitivesearch**     | 리소스 그룹                  | 서비스를 함께 그룹화합니다.   |
-| **ttinvoicestorage**      | 스토리지 계정                 | 청구서를 저장하는 데 사용됩니다.     |
+| **ttinvoicestorage**      | 스토리지 계정                 | 청구서를 저장하는 데 사용     |
 | **ttinvoicesearch**       | Search Service                  | 추천 서비스           |
-| **ttinvoiceintelligence** | Cognitive Services(올인원) | Search Service에 사용됩니다. |
-| **ttinvoicereader**       | Form Recognizer Service         | 이 서비스는 최종적으로 올인원 서비스에서 종료됩니다. 지금은 제한된 액세스 미리 보기로 제공됩니다. 미리 보기에 액세스하려면 [Form Recognizer 액세스 요청](https://aka.ms/FormRecognizerRequestAccess) 양식을 작성하여 제출하세요.  |
+| **ttinvoiceintelligence** | Cognitive Services (올인원) | Search Service에 사용됩니다. |
+| **ttinvoicereader**       | Form Recognizer 서비스         | 이 서비스는 최종적으로 올인원 서비스에서 종료됩니다. 지금은 제한된 액세스 미리 보기로 제공됩니다. 미리 보기에 액세스하려면 [Form Recognizer 액세스 요청](https://aka.ms/FormRecognizerRequestAccess) 양식을 작성하여 제출하세요.  |
 | **readerskillstorage**   | 스토리지 계정              | Azure 함수에 사용되는 스토리지 |
 | **readerskill**          | 함수 앱                 | 인식 기술 앱 |
 | **readerskill**          | App Insights                   | 함수 앱에 인사이트를 추가합니다. |
@@ -42,10 +42,10 @@ Tailwind Traders에는 개발자가 앱에서 활용할 수 있는 이미지, �
 
 
 # <a name="demonstrations"></a>데모
-이 설명은 아래에 나열된 5개의 데모로 구성되어 있습니다. 
+이 발표는 5개의 데모로 구성되어 있습니다. 
 
 - **데모 1**: [Azure Cognitive Search](demo1.md)
-- **데모 2**: [Form Recognizer Service](demo2.md) - 이 데모를 실행하려면 Form Recognizer Preview에 액세스해야 합니다. 미리 보기에 액세스하려면 [Form Recognizer 액세스 요청](https://aka.ms/FormRecognizerRequestAccess) 양식을 작성하여 제출하세요.
+- **데모 2**: [Form Recognizer 서비스](demo2.md) - 이 데모를 실행하려면 Form Recognizer Preview에 액세스해야 합니다. 미리 보기에 액세스하려면 [Form Recognizer 액세스 요청](https://aka.ms/FormRecognizerRequestAccess) 양식을 작성하여 제출하세요.
 - **데모 3**: [사용자 지정 청구서 판독기 기술 만들기](demo3.md)
 - **데모 4**: [모든 항목 요약](demo4.md)
 - **데모 5**: [지식 저장소](demo5.md)
@@ -65,22 +65,22 @@ Tailwind Traders에는 개발자가 앱에서 활용할 수 있는 이미지, �
 * [Microsoft Azure AI(인공 지능) 전략 및 솔루션](https://docs.microsoft.com/en-us/learn/modules/azure-artificial-intelligence/?WT.mc_id=msignitethetour2019-github-aiml10)
 
 **Azure 설명서**
-* [Azure Search에서 “Cognitive Search”란 무엇인가요?](https://docs.microsoft.com/en-us/azure/search/cognitive-search-concept-intro/?WT.mc_id=msignitethetour2019-github-aiml10)
-* [Azure Search의 지식 저장소란 무엇인가요?](https://docs.microsoft.com/en-us/azure/search/knowledge-store-concept-intro)
+* [Azure Search에서 “Cognitive Search”란?](https://docs.microsoft.com/en-us/azure/search/cognitive-search-concept-intro/?WT.mc_id=msignitethetour2019-github-aiml10)
+* [Azure Search의 지식 저장소란?](https://docs.microsoft.com/en-us/azure/search/knowledge-store-concept-intro)
 
 
 # <a name="feedback-loop"></a>피드백 루프
 
-의견, 피드백, 제안이 있으신가요? 현재 콘텐츠 변경/제안/피드백을 위한 최상의 피드백 루프는 이 GitHub 리포지토리에서 새로운 이슈를 생성하는 것입니다. 이슈 생성 방법에 대한 모든 세부 정보를 보려면 [영향을 주는 문서](../CONTRIBUTING.md)를 참조하세요.
+의견, 피드백, 제안이 있으신가요? 현재 콘텐츠 변경/제안/피드백을 위한 최선의 피드백 루프는 이 GitHub 리포지토리에서 새로운 이슈를 생성하는 것입니다. 이슈 생성 방법에 대한 모든 세부 정보를 보려면 [기여](../CONTRIBUTING.md) 문서를 참조하세요.
 
 ## <a name="become-a-trained-presenter"></a>숙련된 발표자 되기
 
-숙련된 발표자가 되려면 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)에 문의하세요. 메일에 다음을 포함하세요.
+숙련된 발표자가 되려면 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)에 문의하세요. 메일에 다음을 포함해야 합니다.
 
 - 전체 이름
-- 이 프레젠테이션의 코드는 aiml10입니다.
-- 프레젠테이션하는 동영상(10분 길이)(예: 목록에 없는 YouTube 동영상)의 링크. 
-  > 해당 동영상은 이 콘텐츠를 포함할 필요가 없으며 발표자 기술을 보여주는 것이 중요합니다.
+- 이 프레젠테이션의 코드: aiml10
+- 발표에 사용하는 동영상(최대 10분 길이)(예: 목록에 없는 YouTube 동영상)의 링크. 
+  > 이 콘텐츠여야할 필요는 없습니다. 발표자의 발표 기술을 보여주는 것이 중요합니다.
 
 멘토가 프로세스에 대한 정보를 제공해드립니다.
 
@@ -96,8 +96,8 @@ Tailwind Traders에는 개발자가 앱에서 활용할 수 있는 이미지, �
     <td align="center"><a href="https://github.com/sethjuarez">
         <img src="https://avatars2.githubusercontent.com/u/115409?s=460&v=4" width="100px;" alt="Seth Juarez"/><br />
         <sub><b>Seth Juarez</b></sub></a><br />
-            <a href="Add link to powerpoint here" title="설명">📢</a>
-            <a href="Add link to pull request here" title="설명서">📖</a> 
+            <a href="Add link to powerpoint here" title="발표">📢</a>
+            <a href="Add link to pull request here" title="문서">📖</a> 
     </td>
 </tr></table>
 

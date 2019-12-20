@@ -71,7 +71,7 @@
 
 # <a name="demo-1---explore"></a>데모 1 - 탐색
 
-> 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-attendee.md#demo-environment-deployment)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-attendee.md#demo-environment-deployment)을 완료해야 합니다.
 
 ### <a name="video-demo-with-voice-over-aiml21---demo-1---explorehttpsyoutube-z6nfyq-wri"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 1 - 탐색](https://youtu.be/-z6nfyq-WrI)
 
@@ -85,13 +85,13 @@
 
 # <a name="demo-2---experiment"></a>데모 2 - 실험
 
-> 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-attendee.md#demo-environment-deployment)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-attendee.md#demo-environment-deployment)을 완료해야 합니다.
 
 ### <a name="video-demo-with-voice-over-aiml21---demo-2---experimenthttpsyoutubec7p_4cryt8k"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 2 - 실험](https://youtu.be/c7p_4CRYT8k)
 
 * [ml.azure.com](https://ml.azure.com/?WT.mc_id=msignitethetour2019-github-aiml21) Azure Machine Learning 스튜디오로 이동합니다. URL을 통해 여기에 직접 액세스하여 로그인하고, 이 설명을 위해 만든 올바른 작업 영역을 선택할 수 있습니다. 또는 Azure Portal의 Azure Machine Learning Service에서 **'지금 미리 보기 시작'** 단추를 선택합니다.
 * 왼쪽 창에서 **자동화된 ML**을 선택합니다.
-* **각 데모에 대한 설명 사항의 동영상을 검토**합니다.
+* **각 데모에 대한 핵심 요지 동영상을 검토**합니다.
 * **'자동화된 새 ML 실행'** 을 클릭합니다.
 * 학습 데이터 데이터 세트(data_train_experiment-XXXXXX)를 선택합니다.
 * 실험 이름(예: aiml21-regression-duration)을 제공합니다.
@@ -111,7 +111,7 @@
 
 # <a name="demo-3---deploy"></a>데모 3 - 배포
 
-> 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-attendee.md#demo-environment-deployment)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-attendee.md#demo-environment-deployment)을 완료해야 합니다.
 
 ### <a name="video-demo-with-voice-over-aiml21---demo-3---deployhttpsyoutube7bkbo7nqd4q"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 3 - 배포](https://youtu.be/7bkBO7NQd4Q)
 
@@ -136,7 +136,7 @@
 
 # <a name="demo-4---present"></a>데모 4 - 표시
 
-> 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-attendee.md#demo-environment-deployment)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-attendee.md#demo-environment-deployment)을 완료해야 합니다.
 
 ### <a name="video-demo-with-voice-over-aiml21---demo-4---presenthttpsyoutubeg7abac9s9qq"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 4 - 표시](https://youtu.be/g7aBaC9s9qQ)
 
@@ -178,4 +178,4 @@
 
 # <a name="feedback-loop"></a>피드백 루프
 
-의견, 피드백, 제안이 있으신가요? 현재 콘텐츠 변경/제안/피드백을 위한 최상의 피드백 루프는 이 GitHub 리포지토리에서 새로운 이슈를 생성하는 것입니다. 이슈 생성 방법에 대한 모든 세부 정보를 보려면 [영향을 주는 문서](../CONTRIBUTING.md)를 참조하세요.
+의견, 피드백, 제안이 있으신가요? 현재 콘텐츠 변경/제안/피드백을 위한 최선의 피드백 루프는 이 GitHub 리포지토리에서 새로운 이슈를 생성하는 것입니다. 이슈 생성 방법에 대한 모든 세부 정보를 보려면 [기여](../CONTRIBUTING.md) 문서를 참조하세요.

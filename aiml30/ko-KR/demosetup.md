@@ -14,7 +14,7 @@
 기본 Azure Machine Learning Service를 만든 후에는 추가적인 컴퓨팅 리소스를 추가해야 합니다.
 ### <a name="create-compute-targets"></a>컴퓨팅 대상 만들기
 1. Machine Learning 컴퓨팅을 만듭니다.
-    * “컴퓨팅” 탐색 창을 클릭합니다.
+    * 탐색 창에서 “컴퓨팅”을 클릭합니다.
     * '학습 클러스터'를 선택합니다.
     * “새로 만들기”를 클릭합니다.
     * 리소스 이름을 입력합니다.
@@ -22,7 +22,7 @@
     * 최소 및 최대 노드를 입력합니다(권장 최소값: 0, 최대값: 5).
     * “만들기” ![컴퓨팅 만들기](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/CreateMlCompute.gif)를 클릭합니다.
 2. Kubernetes 컴퓨팅 만들기
-    * “컴퓨팅” 탐색 창을 클릭합니다.
+    * 탐색 창에서 “컴퓨팅”을 클릭합니다.
     * '유추 클러스터'를 선택합니다.
     * “새로 만들기”를 클릭합니다.
     * 리소스 이름을 입력합니다.
@@ -46,7 +46,7 @@
 2. Azure Storage Explorer 열기 - [여기에서 다운로드합니다](https://azure.microsoft.com/en-us/features/storage-explorer/).
 3. `azureml-blobstore-<guid>`로 이동합니다.
 4. `datasets`라는 새 폴더를 만듭니다.
-5. 데이터 세트 업로드
+5. 데이터 세트를 업로드합니다.
 6. 향후 날짜를 예측하도록 C# 데모 앱에서 로컬 ForecastingData.csv 파일을 바꿉니다. 기본 csv가 있지만 업데이트된 데이터가 아닙니다.
 
 ## <a name="get-the-c-demo-app"></a>C# 데모 앱 받기

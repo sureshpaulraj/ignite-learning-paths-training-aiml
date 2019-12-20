@@ -4,6 +4,6 @@
 
 리소스:
 
-- [Microsoft 오픈 소스 사용 규정](https://opensource.microsoft.com/codeofconduct/)
-- [Microsoft 사용 규정 FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
+- [Microsoft 오픈 소스 준수 사항](https://opensource.microsoft.com/codeofconduct/)
+- [Microsoft 준수 사항 FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
 - 질문이나 우려 사항은 [opencode@microsoft.com](mailto:opencode@microsoft.com)에 문의하세요.

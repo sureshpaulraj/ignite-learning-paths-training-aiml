@@ -10,19 +10,19 @@
 
 ### <a name="welcome-presenter"></a>환영합니다. 발표자 여러분!
 
-참여해 주셔서 감사드리며 이 놀라운 콘텐츠를 제공하게 되어 기쁘게 생각합니다. 숙련된 발표자로서 프레젠테이션하는 ‘방법’은 알고 계실 것이므로 이 가이드에서는 프레젠테이션해야 하는 ‘내용’에 초점을 맞추고 있습니다. **** **** 프레젠테이션 디자인 팀에서 만든 전체 실행 프레젠테이션을 제공합니다.
+참여해 주셔서 감사드리며 이 놀라운 콘텐츠를 제공하게 되어 기쁘게 생각합니다. 숙련된 발표자로서 프레젠테이션하는 ‘방법’은 알고 계실 것이므로 이 가이드에서는 프레젠테이션해야 하는 ‘내용’에 초점을 맞추겠습니다. **** **** 프레젠테이션 디자인 팀에서 만든 전체 실행 프레젠테이션을 제공합니다.
 
 프레젠테이션 동영상과 함께 본 문서는 PowerPoint 슬라이드 및 데모 지침과 코드를 포함하여 성공적으로 프레젠테이션하는 데 필요한 모든 자산에 연결됩니다.
 
 * 문서 전체를 읽습니다.
-* 동영상 프레젠테이션 보기
-* 리드 발표자의 질문하기
+* 동영상 프레젠테이션을 시청합니다.
+* 리드 발표자에 대해 질문합니다.
 
-# <a name="assets-in-train-the-trainer-kit"></a>학습의 자산-강사 키트
+# <a name="assets-in-train-the-trainer-kit"></a>강사 키트 학습의 자산
 
 * 이 가이드
 * [PowerPoint 프레젠테이션](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/presentations.md)
-* [프레젠테이션의 전체 길이 녹화](https://youtu.be/K8upKkvtEI0)
+* [프레젠테이션의 전체 녹화](https://youtu.be/K8upKkvtEI0)
 * [사용된 데이터 세트](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml21/data)
 * [실행할 코드 파일](https://github.com/microsoft/ignite-learning-paths-training-aiml/tree/master/aiml21/code)
 * 별도 데모 동영상: 
@@ -109,7 +109,7 @@
 
 ## <a name="demo-1---explore"></a>데모 1 - 탐색
 
-> 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions)을 완료해야 합니다.
 
 ### <a name="video-demo-with-voice-over-aiml21---demo-1---explorehttpsyoutube-z6nfyq-wri"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 1 - 탐색](https://youtu.be/-z6nfyq-WrI)
 
@@ -120,19 +120,19 @@
 * ‘필요한 경우 Azure 자격 증명을 사용하여 로그인’합니다. 
 * [**Explore.ipynb**](code/explore.ipynb)를 엽니다 *(이러한 모든 탭을 열고 미리 준비하는 것이 좋음).*
 * Notebook의 모든 출력 셀이 선택 취소되어 있는지 확인합니다. **셀 선택 -> 모든 출력 -> 선택 취소**
-* **각 데모에 대한 설명 사항의 동영상을 검토**합니다.
+* **각 데모에 대한 핵심 요지 동영상을 검토**합니다.
 * 처음 6개 셀을 예행 연습으로 실행하고 간단히 설명합니다.
 * 추가 셀 및 시각화를 사용할 수 있으며 참석자는 **[aka.ms/AIML21repo](http://aka.ms/aiml21repo)** 에서 코드를 다운로드해야 합니다.
 
 ## <a name="demo-2---experiment"></a>데모 2 - 실험
 
-> 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions)을 완료해야 합니다.
 
 ### <a name="video-demo-with-voice-over-aiml21---demo-2---experimenthttpsyoutubec7p_4cryt8k"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 2 - 실험](https://youtu.be/c7p_4CRYT8k)
 
 * [ml.azure.com](https://ml.azure.com/?WT.mc_id=msignitethetour2019-github-aiml21) Azure Machine Learning 스튜디오로 이동합니다. URL을 통해 여기에 직접 액세스하여 로그인하고, 이 설명을 위해 만든 올바른 작업 영역을 선택할 수 있습니다. 또는 Azure Portal의 Azure Machine Learning Service에서 **'지금 미리 보기 시작'** 단추를 선택합니다.
 * 왼쪽 창에서 **자동화된 ML**을 선택합니다.
-* **각 데모에 대한 설명 사항의 동영상을 검토**합니다.
+* **각 데모에 대한 핵심 요지 동영상을 검토**합니다.
 * **'자동화된 새 ML 실행'** 을 클릭합니다.
 * 학습 데이터 데이터 세트(data_train_experiment-XXXXXX)를 선택합니다.
 * 실험 이름(예: aiml21-regression-duration)을 제공합니다.
@@ -152,11 +152,11 @@
 
 * 왼쪽의 자동화된 ML 페이지에서 이전에 실행한 실험을 선택하거나, 위에서 방금 제출한 실험에서 [뒤로] 단추를 누릅니다.
 * 이전에 실행한 실험의 '실행 ID'가 길면 이 링크를 선택합니다.
-* **각 데모에 대한 설명 사항의 동영상을 검토**합니다.
+* **각 데모에 대한 핵심 요지 동영상을 검토**합니다.
 
 ## <a name="demo-3---deploy"></a>데모 3 - 배포
 
-> 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions)을 완료해야 합니다.
 
 ### <a name="video-demo-with-voice-over-aiml21---demo-3---deployhttpsyoutube7bkbo7nqd4q"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 3 - 배포](https://youtu.be/7bkBO7NQd4Q)
 
@@ -175,27 +175,27 @@
 
 * 왼쪽 창에서 **엔드포인트**를 선택합니다.
 * 이미 만든 Azure Container Instance 모델을 선택합니다.
-* **각 데모에 대한 설명 사항의 동영상을 검토**합니다.
+* **각 데모에 대한 핵심 요지 동영상을 검토**합니다.
 * Jupyter를 사용하여 [브라우저] 탭을 선택합니다.
 * [Deploy.ipynb](code/deploy.ipynb)를 엽니다.
 * Notebook의 모든 출력 셀이 선택 취소되어 있는지 확인합니다. **셀 선택 -> 모든 출력 -> 선택 취소**
 * 올바른 정보로 구성된 config.json 파일이 완료되었는지 확인합니다.
 * 배포된 웹 서비스의 이름을 포함하도록 두 번째 셀을 편집합니다.
-* Notebook의 모든 셀을 실행하고 코드(**각 데모에 대한 모든 설명 사항의 동영상 검토**)를 설명합니다.
+* Notebook의 모든 셀을 실행하고 코드(**각 데모에 대한 모든 핵심 요지 동영상 검토**)를 설명합니다.
 
 ## <a name="demo-4---present"></a>데모 4 - 표시
 
-> 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml21/README-presenter.md#demo-instructions)을 완료해야 합니다.
 
 ### <a name="video-demo-with-voice-over-aiml21---demo-4---presenthttpsyoutubeg7abac9s9qq"></a>음성 전달이 포함된 동영상 데모: [AIML21 - 데모 4 - 표시](https://youtu.be/g7aBaC9s9qQ)
 
 >발표를 시작하기 전에 [Present.pbix](code/Present.pbix) 및 [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/?WT.mc_id=msignitethetour2019-github-aiml21)을 사용하여 위 설정에 열려 있는 작업 영역 및 보고서와 함께 Power BI Desktop을 엽니다.
 
 * Present.pbix를 엽니다. 
-* **각 데모에 대한 설명 사항의 동영상을 검토**합니다.
+* **각 데모에 대한 핵심 요지 동영상을 검토**합니다.
 * [게시] 단추를 표시합니다.
-* [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/?WT.mc_id=msignitethetour2019-github-aiml21) 열기
-* **각 데모에 대한 설명 사항의 동영상을 검토**합니다.
+* [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/?WT.mc_id=msignitethetour2019-github-aiml21)을 엽니다.
+* **각 데모에 대한 핵심 요지 동영상을 검토**합니다.
 
 # <a name="teardown-instructions"></a>해제 지침
 
@@ -221,16 +221,16 @@
 
 모든 발표자는 매월 **교육 - 강사 Q&A 세션**에 참석할 기회가 있으며(모든 시간대를 포함하는 두 개의 세션), 무대에서 콘텐츠를 발표한 후에는 콘텐츠 경험을 공유하고 원하는 피드백과 아이디어를 제공하기 위해 구성된 **피드백 세션**에 꼭 참여하시기 바랍니다. 
 
-의견, 피드백, 제안이 있으신가요? 현재 콘텐츠 변경/제안/피드백을 위한 최상의 피드백 루프는 이 GitHub 리포지토리에서 새로운 이슈를 생성하는 것입니다. 이슈 생성 방법에 대한 모든 세부 정보를 보려면 [영향을 주는 문서](../CONTRIBUTING.md)를 참조하세요.
+의견, 피드백, 제안이 있으신가요? 현재 콘텐츠 변경/제안/피드백을 위한 최선의 피드백 루프는 이 GitHub 리포지토리에서 새로운 이슈를 생성하는 것입니다. 이슈 생성 방법에 대한 모든 세부 정보를 보려면 [기여](../CONTRIBUTING.md) 문서를 참조하세요.
 
 ## <a name="become-a-trained-presenter"></a>숙련된 발표자 되기
 
-숙련된 발표자가 되려면 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)에 문의하세요. 메일에 다음을 포함하세요.
+숙련된 발표자가 되려면 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)에 문의하세요. 메일에 다음을 포함해야 합니다.
 
 - 전체 이름
 - 이 프레젠테이션의 코드는 aiml21입니다.
-- 프레젠테이션하는 동영상(10분 길이)(예: 목록에 없는 YouTube 동영상)의 링크. 
-  > 해당 동영상은 이 콘텐츠를 포함할 필요가 없으며 발표자 기술을 보여주는 것이 중요합니다.
+- 발표에 사용하는 동영상(최대 10분 길이)(예: 목록에 없는 YouTube 동영상)의 링크. 
+  > 이 콘텐츠여야할 필요는 없습니다. 발표자의 발표 기술을 보여주는 것이 중요합니다.
 
 멘토가 프로세스에 대한 정보를 제공해드립니다.
 
@@ -246,8 +246,8 @@
     <td align="center"><a href="https://github.com/amynic">
         <img src="https://avatars3.githubusercontent.com/u/13828867?s=400&u=f6aca8528d65d6c191114d3a7328b46137eda162&v=4" width="100px;" alt="Amy Boyd"/><br />
         <sub><b>Amy Boyd</b></sub></a><br />
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits?author=amynic" title="설명">📢</a>
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits?author=amynic" title="설명서">📖</a> 
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits?author=amynic" title="발표">📢</a>
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/commits?author=amynic" title="문서">📖</a> 
     </td>
 </tr></table>
 

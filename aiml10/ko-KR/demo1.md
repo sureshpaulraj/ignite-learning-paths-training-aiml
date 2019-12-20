@@ -1,4 +1,4 @@
-# <a name="demo-1---azure-cognitive-search"></a>Demo 1 - Azure Cognitive Search
+# <a name="demo-1---azure-cognitive-search"></a>데모 1 - Azure Cognitive Search
 
 [![데모 1](images/demo1.png)](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/videos/Demo1.mp4 "데모 1")
 
@@ -17,10 +17,10 @@
 
 | 이름                       | 형식                            | 용도                    |
 | -------------------------- | ------------------------------- | ------------------------- |
-| **ttcognitivesearch**     | 리소스 그룹                  | 그룹 서비스 함께   |
+| **ttcognitivesearch**     | 리소스 그룹                  | 서비스를 함께 그룹화합니다.   |
 | **ttinvoicestorage**      | 스토리지 계정                 | 청구서를 저장하는 데 사용     |
-| **ttinvoicesearch**       | Search 서비스                  | 추천 서비스           |
-| **ttinvoiceintelligence** | Cognitive Services(올인원) | 검색 서비스에 사용됨 |
+| **ttinvoicesearch**       | Search Service                  | 추천 서비스           |
+| **ttinvoiceintelligence** | Cognitive Services (올인원) | Search Service에 사용됩니다. |
 
 
 ## <a name="what-to-do"></a>수행할 작업

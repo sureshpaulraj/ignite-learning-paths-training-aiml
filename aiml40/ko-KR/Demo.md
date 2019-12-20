@@ -1,6 +1,6 @@
 # <a name="aiml40---demo-instructions"></a>AIML40 - 데모 지침
 
-필요한 준비를 포함하여 AIML40 데모에 대한 지침은 [AIML40 공개 자료](http://github.com/microsoft/ignite-learning-paths/aiml/aiml40/)에 설명되어 있습니다. 위에 설명된 단계를 여기에서 중복하지는 않지만 데모를 개선하고 45분 내에 완료되는 몇 가지 중요한 요령을 강조하려고 합니다. 데모 시나리오를 숙지하려면 먼저 공개 자료를 읽어보세요.
+필요한 준비 사항을 포함하여 AIML40 데모에 대한 자세한 지침은 [AIML40 공개 자료](http://github.com/microsoft/ignite-learning-paths/aiml/aiml40/)를 참조하시기 바랍니다. 공개 자료에서 설명하는 단계를 중복 설명하지는 않습니다. 다만 데모 세션을 주어진 시간(45분) 안에 원활하게 끝낼 수 있도록 몇 가지 핵심 내용을 안내하고자 합니다. 데모 시나리오를 숙지하려면 먼저 공개 자료를 읽어보세요.
 
 ## <a name="demo-preparation"></a>데모 준비
 
@@ -18,10 +18,10 @@
 
 이러한 단계 외에도 빠른 데모를 위해 다음을 수행해야 합니다.
 
-> 💡 데모를 사용하기 전에 [환경 설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml40/Demo.md#demo-preparation)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [환경 설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml40/Demo.md#demo-preparation)을 완료해야 합니다.
 
 1. **데모 1:** [Text Analytics 페이지](https://azure.microsoft.com/services/cognitive-services/text-analytics/?WT.mc_id=msignitethetour2019-github-aiml40)가 있는 브라우저를 열고, 아래 텍스트 상자에 다음 텍스트를 입력한 후 **분석**을 누릅니다. 
-> 런던 매장에서 구매한 물방울무늬 바지가 마음에 들었어요
+> 런던 매장에서 구매한 도트 패턴 바지가 마음에 들었어요
 
 [데모 1의 동영상 링크: Cognitive Services Text Analytics](https://youtu.be/QJxjm5BirOA)
 
@@ -36,7 +36,7 @@
 3. **데모 3:**
    - Jupyter 환경에서 `asba.ipynb`를 엽니다.
    - 코드에 올바른 구독 ID를 붙여넣었는지 확인합니다(기본값을 변경한 경우 클러스터 이름/리소스 그룹 이름도 확인).
-   - 모든 단계가 올바르게 실행되는지 확인하기 위해 Notebook의 모든 셀을 실행합니다. 일부 단계는 실행하는 데 꽤 많은 시간이 걸리므로 미리 준비하세요. (실험을 실행하는 데 최대 3시간 30분이 걸림 -비용 절감을 위해 컴퓨팅 클러스터를 낮은 우선 순위로 설정하는 것이 중요한 이유)
+   - 모든 단계가 올바르게 실행되는지 확인하기 위해 Notebook의 모든 셀을 실행합니다. 일부 단계는 실행하는 데 꽤 많은 시간이 걸리기 때문에 미리 준비합니다. (실험을 실행하는 데 최대 3시간 30분이 걸리므로 비용 절감을 위해 컴퓨팅 클러스터를 낮은 우선 순위로 설정하는 것이 중요함)
    - 자격 증명을 다시 입력할 필요가 없도록 데모 직전에 Notebook 작업을 완료했는지 확인합니다.
 
 [데모 3의 동영상 링크: Azure Machine Learning SDK 및 Hyperdrive](https://youtu.be/sccNTPO3PwU)
@@ -44,7 +44,7 @@
 
 ## <a name="demo-time"></a>데모 시간
 
-데모를 진행하는 동안 다음을 표시하는 것이 좋습니다.
+데모를 진행하면서 다음과 같은 단계를 보여주는 것이 좋습니다.
 
 1. **데모 1.1**: [Text Analytics 페이지](https://azure.microsoft.com/services/cognitive-services/text-analytics/?WT.mc_id=msignitethetour2019-github-aiml40)가 있는 브라우저를 열고 **분석**을 클릭합니다. 페이지는 미리 로드해야 합니다.
 2. **데모 1.2**: 
@@ -69,14 +69,14 @@
   - **모델 배포** 단추를 사용하여 모델을 배포하는 작업이 얼마나 간단한지 보여줍니다.
 4. **데모 3:** Python SDK와 함께 Azure ML 서비스 사용
   - 이 데모를 진행하는 동안에는 `absa.ipynb` Notebook의 셀을 따라 설명해야 합니다.
-  - 신중하게 진행하기 위해 코드를 전혀 실행하지 않고도 코드를 보여줄 수 있습니다. 단, 안전하지만 라이브 데모 모드에서 코드가 실행되는 것처럼 보이지는 않습니다.
+  - 가장 안전한 방법은 코드를 전혀 실행하지 않고 코드를 보여주는 것입니다. 그러나 라이브 데모 모드에서 코드를 실행하는 과정을 보여줄 수 없게 됩니다.
   - 더 많은 라이브 데모를 수행하려면 [absa-instuctions.ipynb](absa-instuctions.ipynb) Notebook을 참조하세요. 여기서는 데모 중에 실행해서는 ‘안 되는’ 셀과 안전하게 실행할 수 있는 셀을 설명합니다. 
-  - 일반적으로 사용자가 피하고 싶은 작업은 오래 실행되는 작업입니다.
+  - 기본적으로 발표자가 피해야 할 작업은 실행 시간이 오래 걸리는 작업입니다.
 
 ## <a name="tear-down"></a>분해
 
 데모는 리소스를 많이 사용하므로 다음 사항을 숙지하세요.
-* 컴퓨팅 클러스터 삭제(특히 클러스터 준비 시간을 절약하기 위해 데모에서 자동 크기 조정이 꺼져 있기 때문)
+* 클러스터 준비 시간을 절약하기 위해 데모에서 자동 크기 조정이 꺼져 있으므로 컴퓨팅 클러스터를 삭제합니다.
 * Azure Machine Learning 컴퓨팅으로 실행 중인 경우 가동 중지 시간에는 최소 노드가 0으로, 데모 실행 시간에는 1로 편집되어야 합니다. 그러면 비용이 절감됩니다.
-* Azure ML 작업 영역 및 리소스 그룹을 삭제할 수도 있습니다. 지침은 [공용 추가 정보](http://github.com/microsoft/ignite-learning-paths/aiml/aiml40/README.md)에서 제공됩니다.
+* Azure ML 작업 영역 및 리소스 그룹을 삭제할 수도 있습니다. 지침은 [공개 추가 정보](http://github.com/microsoft/ignite-learning-paths/aiml/aiml40/README.md)에서 제공됩니다.
 

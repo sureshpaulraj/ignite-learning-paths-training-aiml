@@ -1,6 +1,6 @@
 # <a name="build-a-pipeline-with-jupyter-notebooks"></a>Jupyter Notebooks를 사용하여 파이프라인 빌드
 
-> 💡 데모를 사용하기 전에 [설정](../DEMO.md)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](../DEMO.md)을 완료해야 합니다.
 
 ## <a name="talking-points"></a>설명 점수
 
@@ -21,4 +21,4 @@
 
 ## <a name="example-demo"></a>예제 데모
 
-* [17:41에 예행 연습 시작](https://youtu.be/UgM8_4fAni8?t=1061)
+* [17:41분부터 예행 연습 시작](https://youtu.be/UgM8_4fAni8?t=1061)

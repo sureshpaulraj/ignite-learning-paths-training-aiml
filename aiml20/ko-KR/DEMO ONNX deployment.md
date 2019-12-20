@@ -1,6 +1,6 @@
 # <a name="demo-onnx-deployment"></a>데모: ONNX 배포
 
-> 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Setup.md)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Setup.md)을 완료해야 합니다.
 
 이 데모에서는 [Custom Vision](DEMO%20Custom%20Vision.md) 데모에서 내보낸 ONNX 파일을 사용하여 Tailwind Traders 웹 사이트에 배포합니다.
 

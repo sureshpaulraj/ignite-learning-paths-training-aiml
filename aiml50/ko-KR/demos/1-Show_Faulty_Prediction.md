@@ -1,6 +1,6 @@
 # <a name="show-faulty-prediction-and-make-a-change"></a>잘못된 예측 표시 및 변경
 
-> 💡 데모를 사용하기 전에 [설정](../DEMO.md)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](../DEMO.md)을 완료해야 합니다.
 
 ## <a name="show-the-faulty-prediction"></a>잘못된 예측 표시
 
@@ -21,4 +21,4 @@
 
 ## <a name="example-demo"></a>예제 데모
 
-* [2:36에 예행 연습 시작](https://youtu.be/UgM8_4fAni8?t=158)
+* [2:36분부터 예행 연습 시작](https://youtu.be/UgM8_4fAni8?t=158)

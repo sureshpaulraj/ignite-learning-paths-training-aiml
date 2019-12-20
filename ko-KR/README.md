@@ -4,7 +4,7 @@
 
 환영합니다!
 
-이 리포지토리의 콘텐츠를 사용하여 데모를 재생하거나 현지 현장 사무소, 커뮤니티 사용자 그룹 또는 회사의 점심시간 학습 이벤트에서 [Microsoft Ignite](https://www.microsoft.com/en-us/ignite)에서와 [Migrosoft Ignite The Tour](https://www.microsoft.com/en-ca/ignite-the-tour/) 동안에 제시된 학습 경로 세션을 프레젠테이션하는 방법을 배울 수 있습니다.
+이 리포지토리의 콘텐츠를 사용하여 데모를 재생하거나 현지 현장 사무소, 커뮤니티 사용자 그룹 또는 회사의 점심시간 학습 이벤트에서 [Microsoft Ignite](https://www.microsoft.com/en-us/ignite)에서와 [Microsoft Ignite The Tour](https://www.microsoft.com/en-ca/ignite-the-tour/) 동안에 제시된 학습 경로 세션을 프레젠테이션하는 방법을 배울 수 있습니다.
 
 ## <a name="do-the-demos"></a>데모 수행
 
@@ -12,7 +12,7 @@
 
 ## <a name="presenting-the-content"></a>콘텐츠 프레젠테이션
 
-참여해 주셔서 감사드리며 이 놀라운 콘텐츠를 제공하게 되어 기쁘게 생각합니다. 숙련된 발표자로서 프레젠테이션하는 방법은 알고 계실 것이므로 이 가이드에서는 프레젠테이션해야 하는 내용에 초점을 맞추고 있습니다. 프레젠테이션 디자인 팀에서 만든 전체 실행 프레젠테이션을 제공합니다.
+참여해 주셔서 감사드리며 이 놀라운 콘텐츠를 제공하게 되어 기쁘게 생각합니다. 숙련된 발표자로서 프레젠테이션하는 방법은 알고 계실 것이므로 이 가이드에서는 프레젠테이션해야 하는 내용에 초점을 맞추겠습니다. 프레젠테이션 디자인 팀에서 만든 전체 실행 프레젠테이션을 제공합니다.
 
 프레젠테이션 동영상과 함께 본 리포지토리는 PowerPoint 슬라이드 및 데모 지침과 코드를 포함하여 성공적으로 프레젠테이션하는 데 필요한 모든 자산에 연결됩니다.
 
@@ -35,7 +35,7 @@ ML 기술을 사용하거나, ML 이론에 대한 기술 지식을 높이거나,
 
 ### <a name="aiml10-making-sense-of-your-unstructured-data-with-aiaiml10readmemd"></a>[AIML10: AI를 사용하여 비정형 데이터 이해](aiml10/README.md)
 
-Tailwind Traders에는 개발자가 앱에서 활용할 수 있는 이미지, 양식, PDF 파일 등 다양한 소스의 구조화되거나 비정형의 레거시 데이터가 많습니다. 이 세션에서는 팀이 Cognitive Search를 사용하여 짧은 시간 안에 이 데이터를 이해하고 놀라운 성공을 거둔 비결을 알아봅니다. 수집-보강-탐색 패턴, 기술 세트, 인지 기술, 자연어 처리, 컴퓨터 비전 등 수많은 AI 개념을 설명합니다.
+Tailwind Traders에는 개발자가 앱에서 활용할 수 있는 이미지, 양식, PDF 파일 등 다양한 소스의 구조화되거나 비정형의 레거시 데이터가 많습니다. 이 세션에서는 팀이 Cognitive Search를 사용하여 짧은 시간 안에 이 데이터를 이해하고 놀라운 성공을 거둔 비결을 알아보겠습니다. 수집-보강-탐색 패턴, 기술 세트, 인지 기술, 자연어 처리, 컴퓨터 비전 등 수많은 AI 개념을 설명합니다.
 
 ### <a name="aiml20-using-pre-built-ai-to-solve-business-challengesaiml20readmemd"></a>[AIML20: 미리 빌드된 AI를 사용하여 비즈니스 과제 해결](aiml20/README.md)
 
@@ -70,7 +70,7 @@ Tailwind Traders의 데이터 과학 팀은 자연어 처리(NLP)를 사용하�
 
 이 콘텐츠의 프레젠테이션에는 아무것도 필요하지 않으며, 필요한 모든 사항은 준비되어 있습니다. 그러나 *숙련된 발표자*가 되면 확장 가능한 콘텐츠 팀에서도 인정받게 될 것입니다. *숙련된 발표자*의 경우 각 세션의 하단에 있는 연락처 정보(이름, 그림, 웹 사이트)를 참조하세요.  
  
-*숙련된 발표자*가 되려면 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)에 문의하세요. 메일에 다음을 포함하세요.
+*숙련된 발표자*가 되려면 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)에 문의하세요. 메일에 다음을 포함해야 합니다.
 
 - 전체 이름:
 - 이 프레젠테이션의 코드: \<세션 코드(예: APPS10)\>

@@ -11,9 +11,9 @@
 
 - 제한된 액세스 미리 보기에 액세스합니다. 미리 보기에 액세스하려면 [Form Recognizer 액세스 요청](https://aka.ms/FormRecognizerRequestAccess) 양식을 작성하여 제출하세요.
 
-- [Postman](https://www.getpostman.com/)은 Form Recognizer 서비스 REST API에 요청을 보내는 데 사용됩니다. 자세한 내용은 이 [간단한 입문](postman.md)을 참조하세요.
+- [Postman](https://www.getpostman.com/)은 Form Recognizer 서비스 REST API에 요청을 보내는 데 사용됩니다. 자세한 내용은 이 [간단한 입문서](postman.md)를 참조하세요.
 
-- Postman Form Recognizer 요청[컬렉션](src/Collections/Form_Recognizer.postman_collection.json).
+- Postman Form Recognizer에서 [컬렉션](src/Collections/Form_Recognizer.postman_collection.json)을 요청합니다.
 
 ## <a name="azure-resources"></a>Azure 리소스
 이 데모에서 작업하는 유일한 리소스는 Form Recognizer 서비스입니다.
@@ -21,7 +21,7 @@
 
 | 이름                       | 형식                            | 용도                    |
 | -------------------------- | ------------------------------- | ------------------------- |
-| **ttinvoicereader**       | Form Recognizer Service         | 이 서비스는 최종적으로 올인원 서비스에서 종료됩니다. 지금은 제한된 액세스 미리 보기로 제공됩니다. 미리 보기에 액세스하려면 [Form Recognizer 액세스 요청](https://aka.ms/FormRecognizerRequestAccess) 양식을 작성하여 제출하세요.  |
+| **ttinvoicereader**       | Form Recognizer 서비스         | 이 서비스는 최종적으로 올인원 서비스에서 종료됩니다. 지금은 제한된 액세스 미리 보기로 제공됩니다. 미리 보기에 액세스하려면 [Form Recognizer 액세스 요청](https://aka.ms/FormRecognizerRequestAccess) 양식을 작성하여 제출하세요.  |
 
 
 ## <a name="what-to-do"></a>수행할 작업
@@ -63,7 +63,7 @@
 
 1. [Form Recognizer 컬렉션](src/Collections/Form_Recognizer.postman_collection.json)을 Postman으로 로드합니다.
 
-2. `Ocp-Apim-Subscription-Key` 권한 부여 헤더 및 `endpoint` 변수를 Form Recognizer 서비스로 설정합니다(포털에서 찾을 수 있음).
+2. `Ocp-Apim-Subscription-Key` 권한 부여 헤더 및 `endpoint` 변수를 Form Recognizer 서비스로 설정합니다. 포털에서 찾을 수 있습니다.
 
 3. `TrainModel` 요청을 열고 사전 요청 스크립트를 변경하여 `storageAccount` 변수를 스토리지 계정(동영상에서 변수는 `ttinvoicestorage`)으로 설정하고, `SASValue`를 `train` 컨테이너에 대한 적절한 보안 액세스 서명으로 설정합니다. 보안 액세스 서명을 가져오는 방법에 대한 자세한 내용은 [간단한 설명](sas.md)을 참조하세요.
 
@@ -87,4 +87,4 @@ pm.environment.set('SASValue', '<SAS>')
 ![유추 응답](images/form_inference.png "유추 응답")
 
 # <a name="next-demo"></a>다음 데모
-[데모 3 - 사용자 지정 청구서 판독기 기술 만들기](demo3.md)를 계속 진행하여 Azure Functions를 사용해 사용자 지정 청구서 판독기 기술을 만드는 방법을 알아보세요.
+[데모 3 - 사용자 지정 청구서 판독기 기술 만들기](demo3.md)를 계속 진행하여 Azure Functions를 사용해 사용자 지정 청구서 판독기 기술을 만드는 방법을 알아보겠습니다.

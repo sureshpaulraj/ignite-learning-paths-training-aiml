@@ -14,7 +14,7 @@ Tailwind Traders는 사용자 지정 기계 학습 모델을 사용하여 소프
 기본 Azure Machine Learning Service 작업 영역을 만든 후에는 추가적인 컴퓨팅 리소스를 추가해야 합니다.
 ### <a name="create-compute-targets"></a>컴퓨팅 대상 만들기
 1. Machine Learning 컴퓨팅을 만듭니다.
-    * “컴퓨팅” 탐색 창을 클릭합니다.
+    * 탐색 창에서 “컴퓨팅”을 클릭합니다.
     * “새로 만들기”를 클릭합니다.
     * 리소스 이름을 입력합니다.
     * 드롭다운에서 “Machine Learning 컴퓨팅”을 선택합니다.
@@ -22,7 +22,7 @@ Tailwind Traders는 사용자 지정 기계 학습 모델을 사용하여 소프
     * 최소 및 최대 노드를 입력합니다(권장 최소값: 0, 최대값: 5).
     * “만들기” ![컴퓨팅 만들기](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/CreateMlCompute.gif)를 클릭합니다.
 2. Kubernetes 컴퓨팅 만들기
-    * “컴퓨팅” 탐색 창을 클릭합니다.
+    * 탐색 창에서 “컴퓨팅”을 클릭합니다.
     * “새로 만들기”를 클릭합니다.
     * 리소스 이름을 입력합니다.
     * 드롭다운에서 “Kubernetes 서비스”를 선택합니다.
@@ -56,7 +56,7 @@ Tailwind Traders는 사용자 지정 기계 학습 모델을 사용하여 소프
 * `Boosted Decision Tree Regression`을 작업 영역으로 끌어옵니다.
 * `Score Model`을 작업 영역으로 끌어옵니다.
 * `Evaluate`를 작업 영역으로 끌어옵니다.
-* 학습 데이터의 경우 `Split Data` 모듈을 `Train Model`에 연결하고, 보이지 않는 데이터로 예측 결과의 점수를 매기려면 `Score Model`에 연결합니다.
+* 학습 데이터를 가져오려면 `Split Data` 모듈을 `Train Model`에 연결하고 보이지 않는 데이터로 예측 결과의 점수를 매기려면 `Score Model`에 연결합니다.
 * `Train Model`을 학습 알고리즘 `Boosted Decision Tree Regression` 모듈에 연결합니다.
 * `Evaluate` 모듈을 사용하여 `Score Model`을 연결합니다.
 * 하단 탐색 창에서 `Run` 단추를 클릭하고 [컴퓨팅]을 선택합니다. 
@@ -139,4 +139,4 @@ Tailwind Traders는 사용자 지정 기계 학습 모델을 사용하여 소프
 
 ## <a name="feedback-loop"></a>피드백 루프
 
-의견, 피드백, 제안이 있으신가요? 현재 콘텐츠 변경/제안/피드백을 위한 최상의 피드백 루프는 이 GitHub 리포지토리에서 새로운 이슈를 생성하는 것입니다. 이슈 생성 방법에 대한 모든 세부 정보를 보려면 [영향을 주는 문서](../../contributing.md) 문서를 참조하세요.
+의견, 피드백, 제안이 있으신가요? 현재 콘텐츠 변경/제안/피드백을 위한 최선의 피드백 루프는 이 GitHub 리포지토리에서 새로운 이슈를 생성하는 것입니다. 이슈 생성 방법에 대한 모든 세부 정보를 보려면 [기여](../../contributing.md) 문서를 참조하세요.

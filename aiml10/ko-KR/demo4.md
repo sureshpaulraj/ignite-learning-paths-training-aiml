@@ -3,14 +3,14 @@
 [![데모 4](images/demo4.png)](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/videos/Demo4.mp4 "데모 4")
 
 ## <a name="summary"></a>요약
-이 연습에서는 모든 리소스를 요약하여 Azure Cognitive Search 내에서 인덱스, 기술, 데이터소스 및 인덱서를 만들어 PDF 파일 컬렉션에서 청구서 데이터를 추출합니다. 이전 연습에서 모든 리소스와 서비스를 올바르게 만들고 설정한 것으로 가정합니다.
+이 연습에서는 모든 리소스를 요약하여 Azure Cognitive Search 내에서 인덱스, 기술 세트, 데이터 원본 및 인덱서를 만들어 PDF 파일 컬렉션에서 청구서 데이터를 추출합니다. 이전 연습에서 모든 리소스와 서비스를 올바르게 만들고 설정한 것으로 가정합니다.
 
 
 ## <a name="what-you-need"></a>필요한 항목
 - [청구서 데이터 세트](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml10/data/invoices_1000.zip)(서비스를 실행하고 기능을 테스트하기 위한 청구서 1,000개의 작은 집합임)
 
 
-- [Postman](https://www.getpostman.com/)은 Form Recognizer 서비스 REST API에 요청을 보내는 데 사용됩니다. 자세한 내용은 이 [간단한 입문](postman.md)을 참조하세요.
+- [Postman](https://www.getpostman.com/)은 Form Recognizer 서비스 REST API에 요청을 보내는 데 사용됩니다. 자세한 내용은 이 [간단한 입문서](postman.md)를 참조하세요.
 
 - Postman [청구서 검색 요청 컬렉션](src/Collections/Invoice_Search.postman_collection.json).
 
@@ -18,7 +18,7 @@
 
 세 가지 주요 단계가 있습니다.
 1. 스토리지 계정에 청구서 업로드
-2. Azure Search Index, 기술 세트, 데이터소스 및 인덱서 준비
+2. Azure Search Index, 기술 세트, 데이터 원본 및 인덱서 준비
 3. 인덱스 모니터링 및 사용
 
 ### <a name="upload-invoice-data"></a>청구서 데이터 업로드

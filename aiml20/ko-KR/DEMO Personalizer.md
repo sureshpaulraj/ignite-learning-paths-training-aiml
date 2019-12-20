@@ -1,6 +1,6 @@
 # <a name="personalizer-demo"></a>Personalizer 데모
 
-> 💡 데모를 사용하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Setup.md)을 완료해야 합니다.
+> 💡 데모를 시작하기 전에 [설정](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Setup.md)을 완료해야 합니다.
 
 이 데모에서는 보충 학습 및 [Cognitive Services Personalizer](https://docs.microsoft.com/en-us/azure/cognitive-services/personalizer/?WT.mc_id=msignitethetour2019-github-aiml20)를 사용하여 웹 사이트 레이아웃이 방문자 작업에 어떻게 적용되는지 확인합니다.
 

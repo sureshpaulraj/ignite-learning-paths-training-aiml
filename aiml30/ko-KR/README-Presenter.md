@@ -10,20 +10,20 @@ Tailwind Traders는 사용자 지정 기계 학습 모델을 사용하여 소프
 
 환영합니다. 발표자 여러분! 
 
-참여해 주셔서 감사드리며 이 놀라운 콘텐츠를 제공하게 되어 기쁘게 생각합니다. 숙련된 발표자로서 프레젠테이션하는 방법은 알고 계실 것이므로 이 가이드에서는 프레젠테이션해야 하는 내용에 초점을 맞추고 있습니다. 프레젠테이션 디자인 팀에서 만든 전체 실행 프레젠테이션을 제공합니다. 
+참여해 주셔서 감사드리며 이 놀라운 콘텐츠를 제공하게 되어 기쁘게 생각합니다. 숙련된 발표자로서 프레젠테이션하는 방법은 알고 계실 것이므로 이 가이드에서는 프레젠테이션해야 하는 내용에 초점을 맞추겠습니다. 프레젠테이션 디자인 팀에서 만든 전체 실행 프레젠테이션을 제공합니다. 
 
 프레젠테이션 동영상과 함께 본 문서는 PowerPoint 슬라이드 및 데모 지침과 코드를 포함하여 성공적으로 프레젠테이션하는 데 필요한 모든 자산에 연결됩니다.
 
 1.  문서 전체를 읽습니다.
-2.  동영상 프레젠테이션 보기
-3.  리드 발표자의 질문하기
+2.  동영상 프레젠테이션을 시청합니다.
+3.  리드 발표자에 대해 질문합니다.
 
 
-## <a name="assets-in-train-the-trainer-kit"></a>학습의 자산-강사 키트
+## <a name="assets-in-train-the-trainer-kit"></a>강사 키트 학습의 자산
 
 - 이 가이드
 - 각 슬라이드에 대한 메모를 포함하는 PowerPoint 프레젠테이션은 [presentations.md](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml30/presentations.md)에 있습니다.
-- 프레젠테이션의 전체 길이 녹화는 [여기](https://www.youtube.com/watch?v=u1ppYaZuNmo&amp=&feature=youtu.be)에서 제공됩니다.
+- 프레젠테이션의 전체 녹화는 [여기](https://www.youtube.com/watch?v=u1ppYaZuNmo&amp=&feature=youtu.be)에서 제공됩니다.
 - 발표 준비가 완료된 실습 데모의 개별 녹화는 [여기](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/FullIgniteModelBuildDemo.mp4)에서 찾을 수 있습니다. 이 항목은 슬라이드 데크의 숨겨진 슬라이드에도 포함됩니다.
 - 데모 리소스 가이드
     1. [데모 설정](demosetup.md)
@@ -31,7 +31,7 @@ Tailwind Traders는 사용자 지정 기계 학습 모델을 사용하여 소프
 
 ## <a name="become-a-presenter"></a>발표자 되기
 
-*숙련된 발표자*되려면 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)에 문의하세요. 메일에 다음을 포함하세요.
+*숙련된 발표자*되려면 [scalablecontent@microsoft.com](mailto:scalablecontent@microsoft.com)에 문의하세요. 메일에 다음을 포함해야 합니다.
 
 - 전체 이름:
 - 이 프레젠테이션의 코드: AIML30
@@ -52,19 +52,19 @@ Tailwind Traders는 사용자 지정 기계 학습 모델을 사용하여 소프
     <td align="center">
         <img src="https://raw.githubusercontent.com/cassieview/bio/d2c9c83169d5c88f2ffc5e89e4dc16a6658438b8/cassieb.png" width="100px;" alt="Cassie Breviu"/><br />
         <sub><b>Cassie Breviu</b></sub><br />
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/aiml30/" title="설명">📢</a>
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/aiml30/" title="설명서">📖</a>
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/aiml30/" title="발표">📢</a>
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/aiml30/" title="문서">📖</a>
     </td>
         <td align="center">
         <img src="https://developer.microsoft.com/en-us/advocates/media/profiles/francesca-lazzeri.png" width="100px;" alt="Francesca Lazzeri"/><br />
         <sub><b>Francesca Lazzeri</b></sub><br />
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/aiml30/" title="설명">📢</a>
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/aiml30/" title="설명서">📖</a>
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/aiml30/" title="발표">📢</a>
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/aiml30/" title="문서">📖</a>
     </td>
         <td align="center"><a href="https://github.com/amynic">
         <img src="https://avatars3.githubusercontent.com/u/13828867?s=400&u=f6aca8528d65d6c191114d3a7328b46137eda162&v=4" width="100px;" alt="Amy Boyd"/><br />
         <sub><b>Amy Boyd</b></sub></a><br />
-            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml30/presentations.md" title="설명">📢</a>
+            <a href="https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml30/presentations.md" title="발표">📢</a>
     </td>
 </tr></table>
 
