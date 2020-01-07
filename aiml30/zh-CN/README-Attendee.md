@@ -118,10 +118,11 @@ Tailwind Traders 使用自定义机器学习模型，无需更改其软件开发
 3. 在 Jupyter 实验室的主页中单击终端
 4. 从 Jupyter 实验室中的终端克隆存储库
     * `git clone https://github.com/microsoft/ignite-learning-paths-training-aiml.git`
-5. 打开 `ignite-learning-paths-training-aiml` 克隆文件夹，导航到 `ignite-ailml30-get-prediction.ipynb` 文件，然后单击将其打开。
+5. 也在终端 `pip install holidays` 中克隆
+6. 打开 `ignite-learning-paths-training-aiml` 克隆文件夹，导航到 `ignite-ailml30-get-prediction.ipynb` 文件，然后单击将其打开。
     * 完整路径应如下所示：`ignite-learning-paths-training-aiml\aiml30\Python\ignite-ailml30-get-prediction.ipynb`
-6. 更新 csv 文件、终结点和密钥的路径。
-7. `SHIFT + Enter` 或在顶部菜单中单击每个单元上的“播放”以运行每个单元
+7. 更新 csv 文件、终结点和密钥的路径。
+8. `SHIFT + Enter` 或在顶部菜单中单击每个单元上的“播放”以运行每个单元
 
 ## <a name="powerpoint-deck-and-video-demo"></a>PowerPoint 资料和视频演示
 

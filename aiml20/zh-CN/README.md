@@ -10,16 +10,21 @@
 
 **使用预先构建的 AI 解决业务挑战**
 
-摘要：作为一家数据驱动型公司，Tailwind Traders 明白使用人工智能改善业务流程和让客户满意至关重要。 在投资 AI 团队之前，他们现有的开发人员能够使用预先构建的 AI 技术展示一些快速取得成效的案例。 在本讲座中，我们将介绍如何使用 Azure 认知服务从零售数据中提取见解。 我们将深入计算机视觉背后的神经网络，介绍如何使用自己的图像增强预构建的 AI 功能，以打造自定义图像识别应用程序。
+作为一家数据驱动型公司，Tailwind Traders 明白使用人工智能改善业务流程和让客户满意至关重要。
+在投资 AI 团队之前，他们现有的开发人员能够使用预先构建的 AI 技术展示一些快速取得成效的案例。 
 
-## <a name="table-of-content"></a>目录
+在本会话中，我们演示如何使用 Azure 认知服务来实现 Tailwind Traders 网站中的“按照片购物”功能，并说明在计算机视觉情况下神经网络的工作原理。 我们还将演示如何自动改编网站布局，以优化匿名用户的参与，这归功于强化学习和个性化体验创建服务。
+
+最后，我们将回顾一下在将 AI 投入生产之前应考虑的成本、数据法规和道德问题。
+
+## <a name="table-of-contents"></a>目录
  
 
 | 资源          | 链接                            |
 |-------------------|----------------------------------|
 | PowerPoint        | - [演示文稿](presentations.md) |
-| 视频            | - [进行排练](https://youtu.be/jRO-5g-HYuU) <br/>- [Microsoft Ignite 奥兰多录制内容](https://myignite.techcommunity.microsoft.com/sessions/82987?source=sessions) |
-| 演示             | - [演示 1 - 设置](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Setup.md) <br/>- [演示 2 - 计算机视觉](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Computer%20Vision.md) <br/>- [演示 3 - 自定义视觉](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Custom%20Vision.md)<br/>- [演示 4 - ONNX 部署](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20ONNX%20deployment.md) <br/>- [演示 5 - 个性化体验创建服务](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Personalizer.md) | 
+| 视频            | - [试运行排练](https://youtu.be/jRO-5g-HYuU) <br/>- [Microsoft Ignite 奥兰多记录](https://myignite.techcommunity.microsoft.com/sessions/82987?source=sessions) |
+| 演示             | - [演示 1 - 设置 ](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Setup.md) <br/>- [演示 2 - 计算机视觉](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Computer%20Vision.md) <br/>- [演示 3 - 自定义视觉](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Custom%20Vision.md)<br/>- [演示 4 - ONNX 部署](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20ONNX%20deployment.md) <br/>- [演示 5 - 个性化体验创建服务](https://github.com/microsoft/ignite-learning-paths-training-aiml/blob/master/aiml20/DEMO%20Personalizer.md) | 
 
 [在此处下载 AIML20 演示的幻灯片](presentations.md)。 （按第一个链接找到最新版本。）这些幻灯片采用 PPT 格式，里面有详细的演讲者备注和内嵌演示视频。
 
@@ -45,7 +50,9 @@
 ### <a name="azure-cognitive-services-docs-and-apps"></a>Azure 认知服务文档和应用
 
 * 认知服务计算机视觉：[https://aka.ms/try-computervision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/?WT.mc_id=ignitetour-talk-davidsmi)  
-* 认知服务自定义视觉：[https://customvision.ai](https://www.customvision.ai/?WT.mc_id=ignitethetour-github-davidsmi) 上的[文档](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/?WT.mc_id=ignitethetour-github-davidsmi)和应用程序
+* 认知服务自定义视觉：[
+          https://customvision.ai
+          ](https://www.customvision.ai/?WT.mc_id=ignitethetour-github-davidsmi) 上的[文档](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/?WT.mc_id=ignitethetour-github-davidsmi)和应用程序
 * ONNX 运行时： https://github.com/microsoft/onnxruntime
 * 认知服务个性化体验创建服务：[https://aka.ms/personalizer-intro](https://docs.microsoft.com/en-us/azure/cognitive-services/personalizer/?WT.mc_id=msignitethetour2019-github-aiml20)
 * 使用个性化体验创建服务强化学习： https://aka.ms/personalizerdemo
