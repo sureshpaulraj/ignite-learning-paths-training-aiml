@@ -4,10 +4,10 @@ This is a machine generated file, and should not be edited, as it will be overwr
 
 # <a name="aiml50-presentation-files"></a>AIML50 프레젠테이션 파일
 
-- [aiml50.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml50/aiml50.pptx)(업데이트 게시일: 2019년 11월 16일)
-- [aiml50.pt-br.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml50/aiml50.pt-br.pptx)(업데이트 게시일: 2019년 12월 4일)
-- [aiml50.zh-cn.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml50/aiml50.zh-cn.pptx)(업데이트 게시일: 2019년 12월 4일)
-- [aiml50.ja-jp.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml50/aiml50.ja-jp.pptx)(업데이트 게시일: 2019년 12월 4일)
+- [aiml50.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml50/aiml50.pptx)(업데이트 게시일: 2019년 11월 15일)
+- [aiml50.pt-br.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml50/aiml50.pt-br.pptx)(업데이트 게시일: 2019년 12월 3일)
+- [aiml50.zh-cn.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml50/aiml50.zh-cn.pptx)(업데이트 게시일: 2019년 12월 3일)
+- [aiml50.ja-jp.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml50/aiml50.ja-jp.pptx)(업데이트 게시일: 2019년 12월 3일)
 ---
 ## <a name="historical-files"></a>이전 파일
 - [aiml50-2019-10_Oct-24.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml50/aiml50-2019-10_Oct-24.pptx)
