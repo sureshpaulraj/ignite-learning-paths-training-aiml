@@ -5,9 +5,9 @@ This is a machine generated file, and should not be edited, as it will be overwr
 # <a name="aiml30-presentation-files"></a>AIML30 演示文稿文件
 
 - [aiml30.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/aiml30.pptx)（更新日期：2019 年 12 月 04 日）
-- [aiml30.pt-br.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/aiml30.pt-br.pptx)（更新日期：2019 年 12 月 04 日）
-- [aiml30.ja-jp.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/aiml30.ja-jp.pptx)（更新日期：2019 年 12 月 04 日）
-- [aiml30.zh-cn.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/aiml30.zh-cn.pptx)（更新日期：2019 年 12 月 04 日）
+- [aiml30.pt-br.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/aiml30.pt-br.pptx)（更新日期：2019 年 12 月 03 日）
+- [aiml30.ja-jp.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/aiml30.ja-jp.pptx)（更新日期：2019 年 12 月 03 日）
+- [aiml30.zh-cn.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/aiml30.zh-cn.pptx)（更新日期：2019 年 12 月 03 日）
 ---
 ## <a name="historical-files"></a>历史文件
 - [aiml30-2019-10_Oct-24.pptx](https://globaleventcdn.blob.core.windows.net/assets/aiml/aiml30/aiml30-2019-10_Oct-24.pptx)
