@@ -111,7 +111,7 @@ Now, we need to create a build definition by pointing Azure DevOps to our build 
 ![13-azure_devops_pipeline_select_build_definition_location](./images/13-azure_devops_pipeline_select_build_definition_location.png)
 
 #### Run the Build
-
+make sure to verify your Azure DevOps org's PAT value for variable "access_token" under variable group name "aiml50-demo"
 After the build is connected to the source repository, we need to run a build to create the Machine Learning pipeline and create a build artifact so we can finish setting up the release pipeline.
 
 * Review the build definition and run the build. The build will complete in a few minutes, but it triggers a Machine Learning pipeline which can take about 20-40 minutes.
